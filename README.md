@@ -81,7 +81,7 @@ of Campinas, 31 March 2023, p. 16:
 This editor is that critique turned into a system. The before/after pair of
 that proposal is the test material in `tests/cold-run/`.
 
-## For judges — check the claims, don't take them
+## For the Weekly Comp #9 judges: check the claims, don't take them
 
 Each claim below names where it would break. If you find the break, that
 matters more than anything else in this repo.
