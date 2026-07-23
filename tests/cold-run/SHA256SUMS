@@ -1,0 +1,14 @@
+# SHA-256 of the preserved receipts — pinned when captured, checked by tests/verify.py
+# Regenerate a line ONLY when a new receipt is added, never to "fix" a mismatch.
+4dab1b7082b4040dcbb009c19a15e3e9aa49dcc18f3c2aa8a2af00afa86465aa  rodada-1-input.md
+c89ea83183dde7050f0c9eedc9588040978dd8e12c833613d58a9d898e4754bd  rodada-1-output.md
+daecd287987b2dda2e6771630e239c9a7d6a3ad7dd351a38413254a829aa4fc9  rodada-2-input.md
+a8603a60e68cdcd5a2be4a5cc395293f42c66eebd432e65b57ac04274ecafacc  rodada-2-output.md
+8afe507d99695ae8edd2f67948db45ade3ce6e022a0676060ac903ff80c584fb  rodada-1-output.EN.md
+de341ae4d08a2dbcbe9bc1e7c3efbc2d990e271d51097bb61e93cba427dcf981  rodada-2-output.EN.md
+ef3dbf6cd50ae5fe81eff148bf78d38dc57f358283fa948f497ad586bba86947  rodada-3-input.md
+bb0c7992d34a2fd6c05aa0764e88251699d9dbaf1fed4bf1cf83a5c73ea2cd02  rodada-3-output.md
+6377f50dcd2004b65d4ed256801471526621f494648091d91f882fc19aed1fb1  rodada-4-input.md
+470fae37ee2c5d70d73160293c3d06f568c92b0dbd02b52ffdaa3cb0a766a7ad  rodada-4-output.md
+b077be6463d8ec41698fa7d6366e12f41c84dc8387501ec4ff74141643841f51  rodada-5-input.md
+5ccb9f588b7d737120e2e4eaac80c82fab8a450baf2aefe932636e57e4a2fb26  rodada-5-output.md
