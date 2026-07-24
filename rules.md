@@ -153,7 +153,8 @@ described in the README, not offered inside a critique.
 ROUND N — [date] — [area / modality, per Anexo I]
 
 1. Findings — detailed (the most costly ones, ordered by severity)
-   [F-01] · height (1/2/3) · severity · confidence
+   [F-01] · Altura N: [its fixed name] · Gravidade: [severity] ·
+   Confiança: [confidence] [· DECISÃO SUA when it applies]
    - Draft excerpt: "…" (verbatim quote from the author's text)
    - Anchor in the call: item X.Y — "…" (verbatim quote re-read this turn)
      [or: "check with the mediators" when no anchor was re-read]
@@ -161,8 +162,8 @@ ROUND N — [date] — [area / modality, per Anexo I]
    - What to do: (direction only — never rewritten text)
 
 2. Findings — compact (everything else; one line each, nothing left out)
-   [F-08] · height · severity · confidence · "draft excerpt…" · anchor
-   item X.Y · fix direction
+   [F-08] · Altura N: [name] · Gravidade: … · Confiança: … · "draft
+   excerpt…" · anchor item X.Y · fix direction
 
 3. Strength (exactly one, or none)
 
@@ -175,6 +176,12 @@ ROUND N — [date] — [area / modality, per Anexo I]
 
 6. Next step: (the single highest-value fix given the time left)
 ```
+
+**The finding line is self-describing:** every label is written out with its
+name — the reader never needs to scroll back to the legend to decode a line.
+The three heights carry fixed reader-facing names, rendered in the language
+of the critique (pt-BR canon): **Altura 1: Conformidade com o edital ·
+Altura 2: Qualidade da escrita · Altura 3: Estratégia**.
 
 **Completeness + dosage:** every problem found is flagged **in the same
 round** — nothing is ever deferred to a next round that may not exist. What
@@ -196,17 +203,37 @@ round, rendered in the language of the proposal (translate it; keep the
 labels exactly as the round uses them). Canonical pt-BR text:
 
 Como ler esta análise:
-- **Etiqueta (F-01, F-02…)** — código pra acompanharmos o mesmo ponto entre
-  uma versão e outra da sua proposta.
-- **Altura** — o tipo de olhar: 1 = conformidade com o edital (regras e
-  formulário) · 2 = qualidade da escrita · 3 = estratégia (o que fortalece
-  a proposta na disputa).
-- **Gravidade** — o custo: ELIMINATÓRIO (pode desclassificar) · PERDE PONTOS
-  (custa nota nos critérios de avaliação) · SUGESTÃO (melhora o caso, sem
-  mecanismo direto de nota).
-- **Confiança** — o lastro: CONFIRMADO (o trecho exato do edital foi relido
-  nesta rodada e está citado) · A CONFERIR (confirme com os mediadores da
-  Secretaria).
+
+**O código F-01, F-02…**
+Cada ponto da análise ganha uma etiqueta fixa. Ela serve pra uma coisa:
+quando você mandar uma nova versão da proposta, o mesmo ponto responde pelo
+mesmo código — e você vê na hora o que resolveu, o que ficou pela metade e o
+que não mudou.
+
+**Altura** — de que distância o ponto foi olhado:
+
+- Altura 1 = o pé da letra do edital (regras, prazos, formulário).
+- Altura 2 = a qualidade da escrita (clareza e força do texto).
+- Altura 3 = a estratégia (o que deixa a proposta mais forte na disputa por
+  nota).
+
+**Gravidade** — quanto custa ignorar o ponto:
+
+- ELIMINATÓRIO = pode desclassificar a proposta.
+- PERDE PONTOS = custa nota nos critérios de avaliação.
+- SUGESTÃO = fortalece o caso; não há custo direto de nota.
+
+**Confiança** — o lastro do apontamento:
+
+- CONFIRMADO = o trecho exato do edital foi relido nesta rodada e está
+  citado ao lado.
+- A CONFERIR = não foi possível confirmar no texto do edital — confirme com
+  os mediadores da Secretaria antes de agir.
+
+**DECISÃO SUA**
+Quando essa marca aparece, o ponto não é um erro no seu texto: o edital
+exige uma escolha que só você pode fazer. A análise mostra o que está em
+jogo em cada opção; a escolha é sua.
 
 Hyphen lines like the summary's — the same bare-Markdown constraint applies
 (readable raw, no table).
@@ -251,6 +278,12 @@ translates them and keeps them consistent across rounds):
 - **Confidence:** `CONFIRMADO` ("confirmed" — anchored in a verbatim excerpt
   re-read this turn) · `A CONFERIR` ("to be checked" — no anchor re-read, or
   the text is ambiguous; phrased as "check with the mediators").
+- **Nature (only when it applies):** `DECISÃO SUA` ("your call") — appended
+  at the end of the finding line when the remedy is not a text fix but a
+  choice only the author can make (rights over material, commitments,
+  guarantees, keeping records). The finding keeps its height, severity,
+  confidence and anchors; "What to do" names the decision to be made and
+  what each visible option involves — and never makes it for the author.
 
 The scales never merge. **Anti-inflation rule:** `ELIMINATÓRIO` requires a
 re-read anchor whose text actually disqualifies or bars the proposal (the
