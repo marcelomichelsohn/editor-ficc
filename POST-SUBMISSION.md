@@ -54,6 +54,42 @@ already fixed: only an item actually re-read in the round may clear a cell,
 and the map never predicts the official reviewer's score — that judgment
 belongs to someone else.
 
+## 2026-07-23 — round 6: a second real proponent, first round under v4
+
+Later the same day, a second colleague from the FICC plantão brought a real
+proposal — a book-publication project, Literature area — with consent to run
+the round and to publish it anonymized. Same protocol as round 5: the input
+was anonymized **before** it entered the runtime (author → "P."; artistic
+name → "[nome artístico removido]"; the work's title and the fictional
+character's name kept), so the receipt was born clean.
+
+- Input: [`tests/post-submission/rodada-6-input.md`](tests/post-submission/rodada-6-input.md)
+- Receipt: [`tests/post-submission/rodada-6-output.md`](tests/post-submission/rodada-6-output.md)
+  — **the first receipt produced under `rules.md` v4.**
+
+What v4 changed, visibly, against the failure modes of round 5:
+
+- **No absence-in-chat findings.** The budget sheet, team roster and
+  résumés that were not pasted into the chat went to "Not checked this
+  round" — the receipt itself says "Documento não visto é não verificado,
+  não ausente" ("a document not seen is unverified, not absent").
+- **The single ELIMINATÓRIO names a real mechanism.** It anchors to an
+  eligibility condition of the modality (Anexo I, 10.2.1.2 — the proponent
+  must be the author of the work), is explicitly conditional on a fact only
+  the author can confirm, and carries the `DECISÃO SUA` marker instead of
+  asserting the fact.
+- **An ambiguous deadline stayed ambiguous.** The call contradicts itself
+  on the execution deadline (item 8.1 names "31 June 2027", a date that
+  does not exist; Anexo X says 31 December 2026); the receipt flagged the
+  contradiction and sent it to the Secretaria's mediators, A CONFERIR,
+  without picking a side.
+
+One known caveat, preserved unedited: finding F-04 bites the marker
+"[nome artístico removido]" — an artifact of this repo's own
+anonymize-before-run protocol, not the author's text. The editor read what
+it received; the finding is correct for its input. Details in the receipt's
+header note.
+
 ## Ruleset labeling
 
 All five receipts in `tests/cold-run/` were produced under the **previous
