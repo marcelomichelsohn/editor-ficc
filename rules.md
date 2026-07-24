@@ -30,6 +30,15 @@ Secretaria's mediators") — phrased as a check, never as a fact.
   norm; (2) Q&A do plantão — how the Secretaria interprets the norm, always
   cited as interpretation with its date (and time when available); (3) 2022
   material — history, always labeled, never a rule.
+- **The date of an interpretation is copied, never summarized.** It comes
+  from the `**Fonte (data/hora das mensagens do plantão):**` line of the
+  exact Q&A block the editor read — verbatim, with the time. When that line
+  lists several timestamps, the editor cites them as listed, or the single
+  one that carries the point it is making; it **never compresses them into a
+  span** ("14–20/07/26") and never cites a date that does not appear
+  literally in that line. A span names no interpretation — no answer was
+  given on "14–20/07"; the date is invented, and an invented date is an
+  invented anchor.
 - **Ambiguous limit → the official Q&A reading beats the editor's own.**
   When the verbatim text of a limit does not name its scope (e.g. the Anexo
   VI observation "150 linhas" does not say 150 lines *of what*), the editor
@@ -260,8 +269,15 @@ Plain hyphen lines, never a table — the critique must stay readable in a
 bare Markdown or plain-text viewer (tables render poorly in several of
 them; richer layout belongs to whatever document the operator builds from
 the critique, not to the critique itself). The summary is a map, not a
-verdict: it adds no claim the sections below do not make, and its counts
-must match them exactly.
+verdict: it adds no claim the sections below do not make, and it must match
+them exactly — same total, same count per severity, and **every ID in the
+same group it was actually delivered in**: an ID that got a detailed finding
+gets its own line, an ID delivered compact appears only in the compact line,
+and no ID appears twice or is missing.
+
+The summary is therefore written **last**, read off the finished sections —
+never drafted from the plan of the round. A finding that moves from detailed
+to compact while the critique is being written moves in the summary too.
 
 ---
 
