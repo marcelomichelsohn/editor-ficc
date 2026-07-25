@@ -65,7 +65,10 @@ character's name kept), so the receipt was born clean.
 
 - Input: [`tests/post-submission/rodada-6-input.md`](tests/post-submission/rodada-6-input.md)
 - Receipt: [`tests/post-submission/rodada-6-output.md`](tests/post-submission/rodada-6-output.md)
-  — **the first receipt produced under `rules.md` v4.**
+  — **the first receipt produced under `rules.md` v4.** Both files are pinned
+  by SHA-256 in `tests/post-submission/SHA256SUMS` and checked by
+  `tests/verify.py`, exactly like the five receipts of the submitted build:
+  the guarantee covers every round, not only the ones that shipped first.
 
 What v4 changed, visibly, against the failure modes of round 5:
 

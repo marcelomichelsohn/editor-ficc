@@ -16,15 +16,23 @@ What it checks (and what it honestly cannot):
   5. example-id-discipline  — finding IDs in examples.md are sequential,
      never duplicated, and the re-review only verifies IDs that exist
      (new ones are explicitly marked).
-  6. receipt-integrity      — every receipt file in tests/cold-run/ matches
-     its SHA-256 in tests/cold-run/SHA256SUMS, and no receipt exists outside
-     the manifest. A receipt that silently drifts from what was captured is
-     worse than no receipt.
+  6. receipt-integrity      — every receipt matches its SHA-256, and no
+     receipt exists outside its manifest. Both receipt folders are covered:
+     tests/cold-run/ (the five rounds of the submitted build) and
+     tests/post-submission/ (rounds run after it). A receipt that silently
+     drifts from what was captured is worse than no receipt — and the newest
+     round is where drift would hurt most.
   7. no-rewrite-scan        — in each preserved receipt, no 8-word span of
      the author's draft reappears OUTSIDE an explicitly quoted excerpt, and
      no offer-to-rewrite phrasing appears. This catches edit-style rewrites
      smuggled around the quote discipline; a rewrite composed of entirely
      new words is beyond any string check — that seam is stated, not hidden.
+  8. runtime-artifact       — no tool-syntax token (<parameter>, <invoke>…)
+     leaked into a receipt's prose, except the occurrences already confessed
+     and counted in RUNTIME_ARTIFACT_ALLOWED. The count is exact in both
+     directions: a new leak fails, and so does a confessed glitch quietly
+     removed. Prose cannot prevent a runtime glitch; this refuses to let a
+     new one pass unnoticed.
 
 This audits the ARTIFACTS, not the runtime: the rules are prose, and no
 script can prove a live session obeys them. The live evidence is in
@@ -46,6 +54,8 @@ REFERENCE = ROOT / "reference"
 EXAMPLES = ROOT / "examples.md"
 RULES = ROOT / "rules.md"
 COLD_RUN = ROOT / "tests" / "cold-run"
+POST_SUBMISSION = ROOT / "tests" / "post-submission"
+RECEIPT_DIRS = (COLD_RUN, POST_SUBMISSION)
 FIXTURES = ROOT / "tests" / "fixtures"
 
 FAILURES = []
@@ -187,12 +197,24 @@ def check_ids(text: str):
 
 
 def check_receipts(manifest_text=None, check="receipt-integrity"):
-    """Check 6: receipts in tests/cold-run/ match their SHA-256 manifest,
-    and every receipt file is listed (an unhashed receipt is a drift risk)."""
-    manifest_path = COLD_RUN / "SHA256SUMS"
+    """Check 6: every receipt folder — tests/cold-run/ and
+    tests/post-submission/ — has a SHA256SUMS manifest, every listed file
+    matches its hash, and every receipt on disk is listed. An unhashed
+    receipt is a drift risk, and the newest round is exactly where drift
+    would hurt most.
+
+    manifest_text is the selftest hook: it replaces the cold-run manifest
+    with planted-bad content, and then only that folder is checked."""
+    dirs = (COLD_RUN,) if manifest_text is not None else RECEIPT_DIRS
+    return sum(check_receipts_dir(d, manifest_text, check) for d in dirs)
+
+
+def check_receipts_dir(directory, manifest_text=None, check="receipt-integrity"):
+    manifest_path = directory / "SHA256SUMS"
+    rel = directory.relative_to(ROOT)
     if manifest_text is None:
         if not manifest_path.exists():
-            fail(check, "tests/cold-run/SHA256SUMS not found")
+            fail(check, f"{rel}/SHA256SUMS not found")
             return 0
         manifest_text = manifest_path.read_text(encoding="utf-8")
     listed = {}
@@ -208,17 +230,17 @@ def check_receipts(manifest_text=None, check="receipt-integrity"):
     n = 0
     for name, expected in listed.items():
         n += 1
-        p = COLD_RUN / name
+        p = directory / name
         if not p.exists():
-            fail(check, f"{name} is in the manifest but missing on disk")
+            fail(check, f"{rel}/{name} is in the manifest but missing on disk")
             continue
         actual = hashlib.sha256(p.read_bytes()).hexdigest()
         if actual != expected:
-            fail(check, f"{name} does not match its recorded SHA-256 — "
+            fail(check, f"{rel}/{name} does not match its recorded SHA-256 — "
                         f"the receipt drifted from what was captured")
-    for p in sorted(COLD_RUN.glob("rodada-*.md")):
+    for p in sorted(directory.glob("rodada-*.md")):
         if p.name not in listed:
-            fail(check, f"{p.name} exists in tests/cold-run/ but is not in "
+            fail(check, f"{p.name} exists in {rel}/ but is not in its "
                         f"SHA256SUMS — every receipt must be pinned")
     return n
 
@@ -280,6 +302,52 @@ def check_no_rewrite(pairs=None, check="no-rewrite", n=8):
     return checked
 
 
+RUNTIME_ARTIFACT = re.compile(
+    r"</?(?:parameter|function_calls|invoke|thinking|system-reminder)\b[^>]*>",
+    re.I,
+)
+
+# The receipts that legitimately contain a leaked runtime token, and how many
+# occurrences each one holds. A receipt is a RECORDING: when the runtime leaks
+# tool syntax into the editor's prose, the leak stays and gets confessed — it
+# is not edited out (tests/cold-run/README.md documents this one). The number
+# is exact on purpose: a NEW leak makes the count rise and fails the check; a
+# receipt quietly cleaned makes it drop and fails too (the SHA-256 pin in
+# check 6 catches the same edit from the other side).
+RUNTIME_ARTIFACT_ALLOWED = {
+    # Round 3, finding F-01: "<parameter>execução</parameter>" — one glitch,
+    # two tags. Confessed in tests/cold-run/README.md and in README.md claim 4.
+    "rodada-3-output.md": 2,
+}
+
+
+def check_runtime_artifacts(receipts=None, check="runtime-artifact"):
+    """Check 8: no tool-syntax token leaked into a receipt's prose, except
+    the occurrences already confessed. Prose rules cannot prevent a runtime
+    glitch; a string check can at least refuse to let a new one pass
+    unnoticed."""
+    if receipts is None:
+        receipts = []
+        for d in (COLD_RUN, ROOT / "tests" / "post-submission"):
+            for p in sorted(d.glob("rodada-*-output*.md")):
+                receipts.append((p.name, p.read_text(encoding="utf-8")))
+    checked = 0
+    for name, text in receipts:
+        checked += 1
+        found = RUNTIME_ARTIFACT.findall(text)
+        allowed = RUNTIME_ARTIFACT_ALLOWED.get(name, 0)
+        if len(found) == allowed:
+            continue
+        if len(found) > allowed:
+            fail(check, f"{name}: {len(found)} runtime-syntax token(s), "
+                        f"{allowed} confessed — new leak: \"{found[allowed]}\"")
+        else:
+            fail(check, f"{name}: {len(found)} runtime-syntax token(s) but "
+                        f"{allowed} are on record — a confessed glitch was "
+                        f"removed; receipts are recordings, not drafts")
+    return checked
+
+
 def run_audit():
     reference = load_reference()
     if not reference:
@@ -293,9 +361,10 @@ def run_audit():
     check_ids(examples)
     n_receipts = check_receipts()
     n_scans = check_no_rewrite()
+    n_artifacts = check_runtime_artifacts()
     print(f"checked: {n_anchors} call anchors · {n_excerpts} draft excerpts · "
           f"1 skeleton · ID discipline · {n_receipts} receipt hashes · "
-          f"{n_scans} no-rewrite scans")
+          f"{n_scans} no-rewrite scans · {n_artifacts} runtime-artifact scans")
     report()
 
 
@@ -337,12 +406,29 @@ def run_selftest():
                         "no-rewrite scan — verifier is broken")
 
     FAILURES.clear()
+    leaked = ("[F-03] · altura 1 · PERDE PONTOS · o cronograma do "
+              "<parameter>Anexo XIII</parameter> não fecha com o item 8.1.")
+    check_runtime_artifacts(receipts=[("synthetic-leak-output.md", leaked)],
+                            check="selftest-runtime-artifact")
+    if not FAILURES:
+        problems.append("a leaked runtime token passed the runtime-artifact "
+                        "scan — verifier is broken")
+
+    FAILURES.clear()
+    check_runtime_artifacts(receipts=[("rodada-3-output.md", "no tokens here")],
+                            check="selftest-runtime-artifact-cleaned")
+    if not FAILURES:
+        problems.append("a receipt with its confessed glitch removed passed "
+                        "the runtime-artifact scan — verifier is broken")
+
+    FAILURES.clear()
     if problems:
         for p in problems:
             print(f"SELFTEST FAIL: {p}")
         sys.exit(1)
     print("selftest: OK — all planted-bad cases (quote, skeleton, tampered "
-          "receipt hash, smuggled rewrite) were correctly rejected")
+          "receipt hash, smuggled rewrite, leaked runtime token, erased "
+          "confession) were correctly rejected")
     sys.exit(0)
 
 

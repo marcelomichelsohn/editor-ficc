@@ -61,7 +61,7 @@ shaped after the fact:
 | `rodada-2-input.md` | Exact message pasted in round 2 (2023-01-10 as-submitted version) |
 | `rodada-2-output.md` | The editor's re-review, ID by ID, verbatim |
 | `rodada-3-input.md` | Exact message pasted in round 3 — a **consented third-party proposal** (another FICC 2026 proponent), anonymized before pasting (natural persons → role + initial); each third-party proposal runs in a fresh chat, so the receipt header reads "ROUND 1" (first round of that proposal) |
-| `rodada-3-output.md` | The editor's full critique of the third-party proposal, verbatim — including a runtime glitch in F-01 (a `<parameter>` tool-syntax token leaked into a sentence), kept unedited as the method requires |
+| `rodada-3-output.md` | The editor's full critique of the third-party proposal, verbatim — including a runtime glitch in F-01 (a `<parameter>` tool-syntax token leaked into a sentence), kept unedited as the method requires — and now pinned by `tests/verify.py`, which counts these tokens exactly: a new leak fails the check, and so does erasing this one |
 | `rodada-4-input.md` | Exact message pasted in round 4 — a second **consented third-party proposal** (same proponent-colleague, different project), anonymized before pasting; fresh chat, so its header also reads "ROUND 1" |
 | `rodada-4-output.md` | The editor's full critique, verbatim — the first round run with the revised `rules.md` (fixed legend, opening summary, no-promise rule), all three visible in the output |
 | `rodada-5-input.md` | Exact message pasted in round 5 — a third **consented third-party proposal** (a different proponent-colleague), anonymized before pasting; fresh chat, header reads "ROUND 1" |

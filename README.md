@@ -93,15 +93,19 @@ matters more than anything else in this repo.
 2. **"Every finding is anchored."** Run `python3 tests/verify.py` (offline,
    stdlib, ~2 s). Its mechanical scope, stated precisely: it verifies the
    **worked examples'** anchors and draft excerpts verbatim and their ID
-   discipline; the **receipts** get their SHA-256 pinned and a scan for
+   discipline; the **receipts** get their SHA-256 pinned, a scan for
    draft spans reproduced outside quoted excerpts (an edit-style rewrite
    would trip it; a rewrite in entirely new words would not — that seam is
-   stated, not hidden). The receipts' own anchors are not re-checked by
+   stated, not hidden), and a scan for tool-syntax tokens leaked by the
+   runtime into the editor's prose, counted exactly against the one glitch
+   already confessed — a new leak fails the check, and so does erasing the
+   confessed one. The receipts' own anchors are not re-checked by
    script — they are checkable by hand against `reference/`, and the
    walkthrough maps them round by round. `--selftest` proves the verifier rejects
-   deliberately broken material, including a tampered hash and a smuggled
-   rewrite — a verifier that passes everything proves nothing. Falsified
-   if: a check passes on material you broke yourself.
+   deliberately broken material, including a tampered hash, a smuggled
+   rewrite and an erased confession — a verifier that passes everything
+   proves nothing. Falsified if: a check passes on material you broke
+   yourself.
 3. **"Real use, preserved."** `tests/cold-run/` holds five full rounds run
    in the declared runtime — method written down **before** execution,
    inputs byte-for-byte, outputs pasted verbatim, errors kept. Rounds 1–2

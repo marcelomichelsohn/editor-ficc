@@ -1,0 +1,5 @@
+# SHA-256 of the post-submission receipts — pinned when captured, checked by tests/verify.py
+# Regenerate a line ONLY when a new receipt is added, never to "fix" a mismatch.
+29e9289b6a455d8e5dd0d1c3b0b1d76cc1dcdf246a8550bcfbb6d946d3f25c28  rodada-6-input.md
+52d9c6b93a07167ab4e984ad926fa226032e450271e1aeafbb59ca8882086a25  rodada-6-output.md
+4a0d3ac9ef80b04fa050fc8d1ad6de1a8112e69165821d8821b22dd0aaa3d178  feedback-rodada-5.md
