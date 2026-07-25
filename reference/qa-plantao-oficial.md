@@ -1,7 +1,7 @@
 # Q&A do Plantão FICC 2026 — respostas oficiais (versão anonimizada)
-> *For readers who don't speak Portuguese: this file belongs to `reference/`, the editor's source of truth about the call. The layer stays in Portuguese by design — the call is written in Portuguese and every quote must match it word for word. **This file:** 63 answers given by the Secretaria's official help desk during the July 2026 question period, paraphrased and anonymized, each traceable to the date/time of its source message. It records how the Secretaria **interprets** its own call — cited as interpretation, never as the call's text.*
+> *For readers who don't speak Portuguese: this file belongs to `reference/`, the editor's source of truth about the call. The layer stays in Portuguese by design — the call is written in Portuguese and every quote must match it word for word. **This file:** 64 answers given by the Secretaria's official help desk during the July 2026 question period, paraphrased and anonymized, each traceable to the date/time of its source message. It records how the Secretaria **interprets** its own call — cited as interpretation, never as the call's text.*
 >
-> **Proveniência:** respostas dadas pela equipe da Secretaria Municipal de Cultura e Turismo de Campinas no plantão oficial de dúvidas do FICC 2026 (grupos de atendimento, julho/2026). Versão parafraseada e anonimizada — perguntas agregadas por tema, sem nomes nem dados pessoais; cada resposta é rastreável pela(s) data/hora da(s) mensagem(ns)-fonte listada(s). Uma versão deste material é publicada em https://faqficc.vercel.app (que pode estar numa versão anterior a esta). Compilado em 2026-07-21; atualizado em 2026-07-24 com a curadoria de 63 pares.
+> **Proveniência:** respostas dadas pela equipe da Secretaria Municipal de Cultura e Turismo de Campinas no plantão oficial de dúvidas do FICC 2026 (grupos de atendimento, julho/2026). Versão parafraseada e anonimizada — perguntas agregadas por tema, sem nomes nem dados pessoais; cada resposta é rastreável pela(s) data/hora da(s) mensagem(ns)-fonte listada(s). Uma versão deste material é publicada em https://faqficc.vercel.app (que pode estar numa versão diferente desta — as duas curadorias são mantidas em paralelo). Compilado em 2026-07-21; atualizado em 2026-07-25 com a curadoria de 64 pares.
 >
 > **Como o editor usa isto:** o Q&A mostra COMO A SECRETARIA INTERPRETA o próprio edital — fonte de verdade complementar ao texto normativo. Quando o Q&A responde algo que o edital não fixa, cite o Q&A como "interpretação do plantão oficial (data/hora)", nunca como texto do edital.
 
@@ -13,7 +13,7 @@ Cada agente cultural (pessoa física ou jurídica) pode inscrever até 2 projeto
 
 **Referências citadas:** item 6.4 do edital
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 11:48:25 · 14/07/26, 12:00:20 · 14/07/26, 14:21:33 · 14/07/26, 14:07:46 · 14/07/26, 14:17:20 · 15/07/26, 14:29:40 · 17/07/26, 20:22:11
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 11:48:25 · 14/07/26, 12:00:20 · 14/07/26, 14:07:46 · 14/07/26, 14:17:20 · 14/07/26, 14:21:33 · 15/07/26, 14:29:40 · 17/07/26, 20:22:11 · 22/07/26, 18:35:06 · 23/07/26, 15:50:05 · 23/07/26, 16:00:38 · 24/07/26, 11:32:28
 
 ---
 
@@ -49,7 +49,7 @@ Não. O cadastramento de artistas locais do site da prefeitura não tem relaçã
 
 Não. Servidor público municipal não pode participar nem como proponente, nem como contratado — inclusive não pode ter o nome em funções criativas do projeto (por exemplo, uma obra de autoria de servidor executada por terceiros).
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:41:41
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:41:41 · 23/07/26, 15:45:18
 
 ---
 
@@ -69,7 +69,7 @@ Cada área cultural tem seu próprio link de inscrição — se o formulário mo
 
 **Referências citadas:** página oficial do edital no portal da prefeitura
 
-**Fonte (data/hora das mensagens do plantão):** 17/07/26, 15:34:53 · 15/07/26, 10:03:02 · 15/07/26, 10:19:53
+**Fonte (data/hora das mensagens do plantão):** 15/07/26, 10:03:02 · 15/07/26, 10:19:53 · 17/07/26, 15:34:53
 
 ---
 
@@ -106,7 +106,7 @@ Na inscrição, trechos, resumo e descrição da concepção literária bastam �
 
 **Referências citadas:** Anexo I, item 10 · item 17 do edital
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 12:02:55 · 14/07/26, 18:47:32 · 14/07/26, 18:02:54
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 12:02:55 · 14/07/26, 18:02:54 · 14/07/26, 18:47:32
 
 ---
 
@@ -158,7 +158,7 @@ As ações do projeto são de livre escolha, desde que o objeto cultural da áre
 
 **Referências citadas:** Anexo I
 
-**Fonte (data/hora das mensagens do plantão):** 15/07/26, 09:03:18 · 15/07/26, 18:57:25 · 15/07/26, 19:00:15 · 15/07/26, 19:23:42 · 15/07/26, 19:29:13 · 16/07/26, 14:22:37
+**Fonte (data/hora das mensagens do plantão):** 15/07/26, 09:03:18 · 15/07/26, 18:57:25 · 15/07/26, 19:00:15 · 15/07/26, 19:23:42 · 15/07/26, 19:29:13 · 16/07/26, 14:22:37 · 23/07/26, 16:03:53
 
 ---
 
@@ -169,7 +169,7 @@ A duração máxima é de 15 minutos, conforme o Anexo I — a menção a 30 min
 
 **Referências citadas:** Anexo I, área de Audiovisual · item 5.4.1.1
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 14:16:16 · 16/07/26, 14:23:26 · 16/07/26, 10:10:50
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:10:50 · 16/07/26, 14:16:16 · 16/07/26, 14:23:26
 
 ---
 
@@ -198,7 +198,7 @@ No item 1.2 (Área Cultural): Multilinguagens. No item 1.3 (modalidade/categoria
 
 Não. Você pode inscrever com o que já tem — quanto mais estruturado, melhor para o parecerista entender a proposta, mas ele avalia o projeto como um todo. O requisito é que, até o fim do prazo de execução, tudo esteja pronto. Se compositores ou músicos convidados só entram caso o projeto seja aprovado, basta justificar isso na proposta.
 
-**Fonte (data/hora das mensagens do plantão):** 22/07/26, 18:30:14 · 22/07/26, 18:31:07
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 18:27:10 · 22/07/26, 18:30:14 · 22/07/26, 18:31:07
 
 ---
 
@@ -206,7 +206,7 @@ Não. Você pode inscrever com o que já tem — quanto mais estruturado, melhor
 
 Sim, pode.
 
-**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:13:31
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:13:04 · 23/07/26, 16:13:31
 
 ---
 
@@ -221,7 +221,7 @@ Siga os tópicos do modelo, sem criar tópicos novos. O que quiser acrescentar �
 
 **Referências citadas:** Anexo VI, itens 2.1 e 2.2
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:42:26 · 14/07/26, 14:43:13 · 15/07/26, 09:44:43 · 15/07/26, 10:03:51 · 19/07/26, 14:28:38 · 21/07/26, 18:40:11 · 21/07/26, 18:40:58 · 21/07/26, 18:41:13 · 24/07/26, 10:43:18
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:42:26 · 14/07/26, 14:43:13 · 15/07/26, 09:44:43 · 15/07/26, 10:03:51 · 19/07/26, 14:28:38 · 21/07/26, 18:40:11 · 21/07/26, 18:40:58 · 21/07/26, 18:41:13 · 22/07/26, 19:36:11 · 22/07/26, 19:55:15 · 24/07/26, 10:42:43 · 24/07/26, 10:43:18 · 24/07/26, 14:34:52
 
 ---
 
@@ -244,7 +244,7 @@ Não há obrigação de foto nem de dados adicionais. Links de portfólio são p
 
 **Referências citadas:** Anexo V (modelo de currículo)
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:21:43
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:21:43 · 23/07/26, 15:51:47 · 23/07/26, 15:53:57 · 23/07/26, 15:54:54
 
 ---
 
@@ -265,7 +265,7 @@ Acessibilidade: escolha uma ou mais medidas que o seu projeto contemple — a do
 
 **Referências citadas:** item 7 do edital
 
-**Fonte (data/hora das mensagens do plantão):** não recuperada do log do plantão (única resposta sem timestamp — mantida com esta etiqueta em vez de inventar uma)
+**Fonte (data/hora das mensagens do plantão):** não recuperada do log do plantão — mantida com esta etiqueta em vez de inventar uma
 
 ---
 
@@ -284,7 +284,7 @@ Não. O item 2.5 se refere à comercialização de bens — por exemplo, a venda
 
 **Referências citadas:** item 2.5 (Anexo VI)
 
-**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:06:49
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:05:21 · 23/07/26, 16:06:49
 
 ---
 
@@ -303,7 +303,7 @@ O repasse é integral e em parcela única, sem retenção de imposto — nem par
 Proponente pessoa física que também trabalha no projeto pode emitir nota fiscal do próprio CNPJ (MEI) para comprovar o próprio cachê.
 - Quem não tem CNPJ comprova por RPA (Recibo de Pagamento Autônomo) — há modelos prontos disponíveis na internet.
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 15:19:45 · 14/07/26, 15:45:37 · 17/07/26, 14:25:45
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 15:19:45 · 14/07/26, 15:45:37 · 17/07/26, 14:25:45 · 24/07/26, 16:49:37 · 24/07/26, 16:55:13
 
 ---
 
@@ -315,7 +315,7 @@ Pode, com regras:
 - Recursos próprios: especifique na planilha, no campo próprio de repasses de orçamento, e justifique no projeto.
 - Parceria que cede equipamento: sinalize no orçamento e no texto; carta formalizada não é exigida na inscrição (se tiver, anexe em informações complementares).
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 14:10:56 · 13/07/26, 14:12:23 · 17/07/26, 15:41:37 · 16/07/26, 09:53:46 · 19/07/26, 14:02:05 · 17/07/26, 18:59:01 · 17/07/26, 19:00:27
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 14:10:56 · 13/07/26, 14:12:23 · 16/07/26, 09:53:46 · 17/07/26, 15:41:37 · 17/07/26, 18:59:01 · 17/07/26, 19:00:27 · 19/07/26, 14:02:05
 
 ---
 
@@ -329,7 +329,7 @@ Estruturas complementares do espaço são por conta do projeto — ao usar um es
 
 **Referências citadas:** Anexo X, item 5.9.4 (o corpo do edital só numera até 5.4)
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:39:13 · 19/07/26, 09:31:04 · 19/07/26, 18:22:54 · 22/07/26, 14:59:43 · 22/07/26, 18:25:04 · 23/07/26, 09:11:38
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:39:13 · 19/07/26, 09:31:04 · 19/07/26, 18:22:54 · 22/07/26, 14:59:43 · 22/07/26, 18:25:04 · 23/07/26, 09:02:38 · 23/07/26, 09:11:38
 
 ---
 
@@ -352,7 +352,7 @@ Em regra, ao término da execução os bens duráveis adquiridos devem ser doado
 
 **Referências citadas:** itens 16.6 e 16.7 do edital
 
-**Fonte (data/hora das mensagens do plantão):** 21/07/26, 12:09:19 · 21/07/26, 12:12:07 · 23/07/26, 11:22:01 · 23/07/26, 14:16:30 · 23/07/26, 14:31:18
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 12:09:19 · 21/07/26, 12:12:07 · 23/07/26, 11:03:53 · 23/07/26, 11:22:01 · 23/07/26, 11:54:46 · 23/07/26, 14:16:30 · 23/07/26, 14:28:03 · 23/07/26, 14:31:18
 
 ---
 
@@ -400,7 +400,7 @@ Contratar contador/assessoria contábil não é obrigatório — fica a seu crit
 
 **Referências citadas:** item 16.4
 
-**Fonte (data/hora das mensagens do plantão):** 22/07/26, 14:59:43 · 23/07/26, 11:19:09
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 14:59:43 · 23/07/26, 10:39:24 · 23/07/26, 11:19:09
 
 ---
 
@@ -411,6 +411,20 @@ Sim, não há impedimento — desde que não se enquadre nas vedações do item 
 **Referências citadas:** item 3.2
 
 **Fonte (data/hora das mensagens do plantão):** 23/07/26, 10:31:56 · 23/07/26, 11:13:35
+
+---
+
+### Qual o valor máximo que meu projeto pode pedir? O teto é o mesmo para todas as áreas?
+
+Não — cada área e modalidade tem o seu próprio teto, definido no Anexo I, junto com o número mínimo de projetos a serem aprovados naquela linha.
+- Edição de obras literárias inéditas: até R$ 30.000,00 por projeto, com no mínimo 5 projetos aprovados (item 10.3.1.1).
+- Audiovisual — ficção, animação e documentário: até R$ 50.000,00 por projeto, com no mínimo 3 aprovados, sendo 1 de cada modalidade (item 5.3.1.1).
+- Desenvolvimento e produção de games: até R$ 50.000,00 por projeto (item 5.3.1.2).
+- Os valores das demais áreas estão no Anexo I, na descrição da área correspondente — confira o da sua antes de montar o orçamento. Os três acima são os que o plantão citou expressamente; esta página não reproduz a tabela inteira para não arriscar erro de transcrição.
+
+**Referências citadas:** Anexo I — Descrição das Áreas Artístico-Culturais · Itens 5.3.1.1, 5.3.1.2 e 10.3.1.1
+
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 09:58:33
 
 ---
 
@@ -444,7 +458,7 @@ Empresa no lugar de pessoa: pode (ex.: uma empresa de acessibilidade cobrindo v�
 - Campo 'cidade': é a cidade de residência do integrante.
 - Alocação das funções na planilha: livre — a tabela é um modelo que você pode seguir ou não; o conselho é distribuir as funções com clareza.
 
-**Fonte (data/hora das mensagens do plantão):** 20/07/26, 14:04:19 · 17/07/26, 14:46:10 · 17/07/26, 18:26:38
+**Fonte (data/hora das mensagens do plantão):** 17/07/26, 14:46:10 · 17/07/26, 18:26:38 · 20/07/26, 14:04:19 · 23/07/26, 14:52:53
 
 ---
 
@@ -453,7 +467,7 @@ Empresa no lugar de pessoa: pode (ex.: uma empresa de acessibilidade cobrindo v�
 Pode, e não há limite formal. A recomendação é não concentrar funções demais numa pessoa só: o parecerista avalia se o projeto é viável de ser executado.
 - Isso vale também para o orçamento: a mesma pessoa pode ter rubricas distintas na planilha (ex.: cachê artístico + produção executiva), com bom senso na distribuição da verba pública.
 
-**Fonte (data/hora das mensagens do plantão):** 17/07/26, 18:46:18 · 23/07/26, 19:23:32
+**Fonte (data/hora das mensagens do plantão):** 17/07/26, 18:46:18 · 23/07/26, 19:21:10 · 23/07/26, 19:23:32
 
 ---
 
@@ -495,7 +509,7 @@ Para pontuar, o agente cultural proponente precisa fazer parte do grupo do indut
 
 **Referências citadas:** itens 12.9.1 a 12.9.5 do edital · Anexo IV
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:13:40 · 16/07/26, 14:13:26 · 16/07/26, 14:23:22 · 16/07/26, 19:18:23 · 17/07/26, 16:02:55 · 17/07/26, 16:09:08 · 20/07/26, 16:53:33 · 20/07/26, 14:05:30
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:13:40 · 16/07/26, 14:13:26 · 16/07/26, 14:23:22 · 16/07/26, 19:18:23 · 17/07/26, 16:02:55 · 17/07/26, 16:09:08 · 20/07/26, 14:05:30 · 20/07/26, 16:53:33
 
 ---
 
@@ -505,7 +519,7 @@ O indutor de desconcentração não tem campo próprio no Anexo IV: vale o ender
 
 **Referências citadas:** item 12.9.5 do edital
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 14:29:13 · 16/07/26, 16:38:29 · 16/07/26, 16:51:04 · 16/07/26, 19:50:54 · 16/07/26, 19:36:34
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 14:29:13 · 16/07/26, 16:38:29 · 16/07/26, 16:51:04 · 16/07/26, 19:36:34 · 16/07/26, 19:50:54
 
 ---
 
@@ -518,7 +532,7 @@ Todo espaço que não é equipamento da Secretaria de Cultura — ONG, teatro al
 - Assina quem é responsável direto pela administração do espaço (numa universidade, chefe de departamento ou diretor de unidade vale, se for o responsável). Assinatura digital via gov.br é aceita.
 - Oficinas e atividades em local privado (inclusive uma escola do próprio proponente) são permitidas, desde que sejam 100% gratuitas e abertas ao público e que se anexe a carta de anuência do responsável pelo espaço. Ser o proprietário do espaço não impede.
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 11:19:39 · 15/07/26, 10:16:03 · 15/07/26, 10:14:11 · 16/07/26, 14:17:32 · 16/07/26, 14:03:25 · 21/07/26, 09:13:14 · 13/07/26, 11:25:30 · 13/07/26, 11:38:14 · 13/07/26, 11:47:17 · 22/07/26, 15:38:28 · 22/07/26, 15:48:17
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 11:19:39 · 13/07/26, 11:25:30 · 13/07/26, 11:38:14 · 13/07/26, 11:47:17 · 15/07/26, 10:14:11 · 15/07/26, 10:16:03 · 16/07/26, 14:03:25 · 16/07/26, 14:17:32 · 21/07/26, 09:13:14 · 22/07/26, 11:42:49 · 22/07/26, 15:13:30 · 22/07/26, 15:38:28 · 22/07/26, 15:40:31 · 22/07/26, 15:48:17 · 24/07/26, 10:41:24
 
 ---
 
@@ -530,7 +544,7 @@ Equipamentos geridos pela Secretaria Municipal de Cultura dispensam a carta. Nã
 
 **Referências citadas:** campinas.sp.gov.br/secretaria/cultura-e-turismo
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 15:33:37 · 14/07/26, 20:13:24 · 14/07/26, 20:18:39 · 15/07/26, 10:08:23 · 16/07/26, 09:54:02 · 16/07/26, 10:34:36 · 16/07/26, 10:39:13 · 20/07/26, 14:27:50 · 16/07/26, 11:12:09
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 15:33:37 · 14/07/26, 20:13:24 · 14/07/26, 20:18:39 · 15/07/26, 10:08:23 · 16/07/26, 09:54:02 · 16/07/26, 10:34:36 · 16/07/26, 10:39:13 · 16/07/26, 11:12:09 · 20/07/26, 14:27:50 · 21/07/26, 09:35:17 · 24/07/26, 14:13:51 · 24/07/26, 14:32:56
 
 ---
 
@@ -587,7 +601,7 @@ Na inscrição, só até o Anexo VII (planilha orçamentária). Assinam os anexo
 
 **Referências citadas:** item 9 do edital · Anexos III, IV, VII e VIII
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 10:01:54 · 16/07/26, 19:20:09 · 17/07/26, 14:33:24 · 18/07/26, 16:00:32 · 20/07/26, 16:47:30 · 20/07/26, 15:56:23 · 21/07/26, 09:13:27 · 22/07/26, 09:06:12 · 22/07/26, 09:07:06 · 22/07/26, 09:09:06
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 10:01:54 · 16/07/26, 19:20:09 · 17/07/26, 14:33:24 · 18/07/26, 16:00:32 · 20/07/26, 15:56:23 · 20/07/26, 16:47:30 · 21/07/26, 09:13:27 · 22/07/26, 09:06:12 · 22/07/26, 09:07:06 · 22/07/26, 09:09:06 · 24/07/26, 14:28:17 · 24/07/26, 15:42:32
 
 ---
 
@@ -622,7 +636,7 @@ Pela ficha técnica (nome, função e município de cada integrante), pelo curr�
 
 Não isoladamente. O cartão CNPJ comprova os dados cadastrais e a sede, mas a análise documental exige um comprovante de endereço formal: uma conta recente de consumo (água, luz, telefone, internet) ou contrato de aluguel no CNPJ da ONG. Se a ONG não tiver contas no próprio nome, vale o comprovante em nome do representante legal (presidente) ou do proprietário do imóvel, acompanhado de uma declaração simples de que a sede/atividades funcionam naquele endereço. O estatuto social não serve como comprovante de endereço. Para casos específicos (ex.: conta de internet), o plantão orientou consultar a Secretaria em editais.cultura@campinas.sp.gov.br.
 
-**Fonte (data/hora das mensagens do plantão):** 23/07/26, 11:47:21 · 23/07/26, 11:54:42 · 23/07/26, 11:59:36
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 11:43:52 · 23/07/26, 11:47:21 · 23/07/26, 11:53:01 · 23/07/26, 11:54:42 · 23/07/26, 11:56:34 · 23/07/26, 11:59:36
 
 ---
 
@@ -637,7 +651,7 @@ O projeto só pode ser iniciado a partir do pagamento — nenhuma etapa (nem pes
 
 **Referências citadas:** Anexo XIII
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 19:14:06 · 19/07/26, 14:36:44 · 19/07/26, 14:37:18 · 23/07/26, 15:49:57 · 24/07/26, 11:43:42
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 19:14:06 · 19/07/26, 14:36:44 · 19/07/26, 14:37:18 · 23/07/26, 15:49:24 · 23/07/26, 15:49:57 · 24/07/26, 11:17:09 · 24/07/26, 11:43:42
 
 ---
 
@@ -646,7 +660,7 @@ O projeto só pode ser iniciado a partir do pagamento — nenhuma etapa (nem pes
 A entrega do material finalizado (ex.: um curta) fica a critério do agente cultural — por link ou em mídia física.
 - Prestação de contas: a recomendação do plantão é enviar assim que terminar a execução, até para não constar no sistema como pendente.
 
-**Fonte (data/hora das mensagens do plantão):** 15/07/26, 18:04:02
+**Fonte (data/hora das mensagens do plantão):** 15/07/26, 18:04:02 · 24/07/26, 17:00:13 · 24/07/26, 17:06:30
 
 ---
 
@@ -656,7 +670,7 @@ Você não pode mudar o objeto do projeto (ex.: de curta-metragem para videoclip
 
 **Referências citadas:** item 17
 
-**Fonte (data/hora das mensagens do plantão):** 22/07/26, 09:22:35 · 22/07/26, 09:23:11 · 22/07/26, 09:27:11 · 24/07/26, 15:50:56
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 09:19:25 · 22/07/26, 09:22:35 · 22/07/26, 09:23:11 · 22/07/26, 09:27:11 · 24/07/26, 15:46:03 · 24/07/26, 15:50:56
 
 ---
 
@@ -664,6 +678,6 @@ Você não pode mudar o objeto do projeto (ex.: de curta-metragem para videoclip
 
 O prazo de inscrição do edital é mantido (final de julho) e não é prorrogável. Já o prazo de execução do projeto aprovado (e a prestação de contas) pode ser prorrogado durante a vigência, desde que você solicite com antecedência à Secretaria de Cultura, justificando o pedido.
 
-**Fonte (data/hora das mensagens do plantão):** 22/07/26, 16:21:33
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 16:01:40 · 22/07/26, 16:21:33
 
 ---

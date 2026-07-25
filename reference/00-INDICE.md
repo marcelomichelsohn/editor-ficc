@@ -23,7 +23,7 @@
 |---|---|---|
 | `armadilhas.md` | As 23 armadilhas eliminatórias/de barreira, com anexo+item — RODA INTEIRO em toda revisão | Sempre — é o checklist de cobertura completa |
 | `diff-2022-2026.md` | O que mudou do ciclo 2022 pro 2026 — onde o exemplo antigo engana | Sempre que usar os worked examples (que vêm de 2022) |
-| `qa-plantao-oficial.md` | 63 respostas oficiais do plantão da Secretaria (anonimizadas, rastreáveis por data/hora) | Quando o edital não fixa e a Secretaria interpretou — citar como interpretação do plantão, não como texto do edital |
+| `qa-plantao-oficial.md` | 64 respostas oficiais do plantão da Secretaria (anonimizadas, rastreáveis por data/hora) | Quando o edital não fixa e a Secretaria interpretou — citar como interpretação do plantão, não como texto do edital |
 
 ## Hierarquia das fontes (em conflito)
 
