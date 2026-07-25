@@ -1,5 +1,7 @@
 # Q&A do Plantão FICC 2026 — respostas oficiais (versão anonimizada)
-> **Proveniência:** respostas dadas pela equipe da Secretaria Municipal de Cultura e Turismo de Campinas no plantão oficial de dúvidas do FICC 2026 (grupos de atendimento, julho/2026). Versão parafraseada e anonimizada — perguntas agregadas por tema, sem nomes nem dados pessoais; cada resposta é rastreável pela(s) data/hora da(s) mensagem(ns)-fonte listada(s). Mesmo conteúdo publicado em https://faqficc.vercel.app. Compilado em 2026-07-21.
+> *For readers who don't speak Portuguese: this file belongs to `reference/`, the editor's source of truth about the call. The layer stays in Portuguese by design — the call is written in Portuguese and every quote must match it word for word. **This file:** 63 answers given by the Secretaria's official help desk during the July 2026 question period, paraphrased and anonymized, each traceable to the date/time of its source message. It records how the Secretaria **interprets** its own call — cited as interpretation, never as the call's text.*
+>
+> **Proveniência:** respostas dadas pela equipe da Secretaria Municipal de Cultura e Turismo de Campinas no plantão oficial de dúvidas do FICC 2026 (grupos de atendimento, julho/2026). Versão parafraseada e anonimizada — perguntas agregadas por tema, sem nomes nem dados pessoais; cada resposta é rastreável pela(s) data/hora da(s) mensagem(ns)-fonte listada(s). Uma versão deste material é publicada em https://faqficc.vercel.app (que pode estar numa versão anterior a esta). Compilado em 2026-07-21; atualizado em 2026-07-24 com a curadoria de 63 pares.
 >
 > **Como o editor usa isto:** o Q&A mostra COMO A SECRETARIA INTERPRETA o próprio edital — fonte de verdade complementar ao texto normativo. Quando o Q&A responde algo que o edital não fixa, cite o Q&A como "interpretação do plantão oficial (data/hora)", nunca como texto do edital.
 
@@ -21,7 +23,7 @@ A exigência — residência ou sede no município há pelo menos 2 anos — val
 - A equipe pode ter pessoas de outras cidades, sem limite de quantidade.
 - Neste ano o edital não tem porcentagem mínima nem máxima de profissionais residentes em Campinas.
 
-**Fonte (data/hora das mensagens do plantão):** 15/07/26, 10:27:09 · 16/07/26, 09:16:14
+**Fonte (data/hora das mensagens do plantão):** 15/07/26, 10:27:09 · 16/07/26, 09:16:14 · 21/07/26, 19:39:33 · 21/07/26, 19:41:50
 
 ---
 
@@ -181,6 +183,33 @@ Pode, mas é preciso justificar na inscrição por que a etapa será feita fora,
 
 ---
 
+### Projeto de curta-metragem musical em Multilinguagens: o que escrevo nos campos de área e modalidade do Anexo VI? Ele caberia também em Audiovisual?
+
+No item 1.2 (Área Cultural): Multilinguagens. No item 1.3 (modalidade/categoria): "Projetos de Criação ou Circulação", como descrito no Anexo I.
+- Segundo o plantão, um curta musical cabe nas duas áreas (Multilinguagens e Audiovisual/Multimeios).
+
+**Referências citadas:** Anexo I; Anexo VI, itens 1.2 e 1.3
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 18:27:51 · 21/07/26, 18:46:37 · 21/07/26, 18:46:49
+
+---
+
+### Gravação de álbum: preciso enviar todas as músicas prontas na inscrição?
+
+Não. Você pode inscrever com o que já tem — quanto mais estruturado, melhor para o parecerista entender a proposta, mas ele avalia o projeto como um todo. O requisito é que, até o fim do prazo de execução, tudo esteja pronto. Se compositores ou músicos convidados só entram caso o projeto seja aprovado, basta justificar isso na proposta.
+
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 18:30:14 · 22/07/26, 18:31:07
+
+---
+
+### Em "Gravação de Álbum Inédito", posso incluir regravações de músicas já conhecidas com novos arranjos?
+
+Sim, pode.
+
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:13:31
+
+---
+
 ## Como escrever a proposta
 
 ### Como preencher os textos do modelo de proposta (Anexo VI)? Posso criar seções novas? Quantas linhas?
@@ -188,10 +217,11 @@ Pode, mas é preciso justificar na inscrição por que a etapa será feita fora,
 Siga os tópicos do modelo, sem criar tópicos novos. O que quiser acrescentar — apresentação, justificativa — entra dentro dos tópicos existentes: no resumo e no plano de trabalho (itens 2.1 e 2.2) ou na estratégia de ação/metodologia.
 - O limite é de 150 linhas por tópico, não para o projeto inteiro.
 - Não precisa ser extenso: o importante é ser compreensível e coeso.
+- As 150 linhas por campo contam apenas o texto escrito pelo proponente — não as perguntas e rótulos já impressos no modelo.
 
 **Referências citadas:** Anexo VI, itens 2.1 e 2.2
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:42:26 · 14/07/26, 14:43:13 · 15/07/26, 09:44:43 · 15/07/26, 10:03:51 · 19/07/26, 14:28:38
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 14:42:26 · 14/07/26, 14:43:13 · 15/07/26, 09:44:43 · 15/07/26, 10:03:51 · 19/07/26, 14:28:38 · 21/07/26, 18:40:11 · 21/07/26, 18:40:58 · 21/07/26, 18:41:13 · 24/07/26, 10:43:18
 
 ---
 
@@ -239,6 +269,25 @@ Acessibilidade: escolha uma ou mais medidas que o seu projeto contemple — a do
 
 ---
 
+### O plano de divulgação entra no Plano de Acesso e Acessibilidade do Anexo VI? E onde ele entra? Preciso citar a acessibilidade dos locais escolhidos?
+
+O plano de divulgação não entra no Plano de Acesso e Acessibilidade — ele se encaixa na Estratégia de ação (Metodologia).
+- Já a acessibilidade dos locais escolhidos: sim, é importante citar no plano.
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 14:07:12 · 21/07/26, 14:09:19 · 21/07/26, 14:46:25 · 21/07/26, 14:48:43
+
+---
+
+### No item 2.5 (comercialização de bens e serviços), preciso declarar a receita de streaming, que costuma ser irrisória?
+
+Não. O item 2.5 se refere à comercialização de bens — por exemplo, a venda do disco físico. A receita de streaming não precisa ser declarada ali.
+
+**Referências citadas:** item 2.5 (Anexo VI)
+
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 16:06:49
+
+---
+
 ## Orçamento, pagamento e impostos
 
 ### Como é o repasse? Tem retenção de imposto?
@@ -275,10 +324,12 @@ Pode, com regras:
 Estruturas complementares do espaço são por conta do projeto — ao usar um espaço aberto, cobertura/lona e afins entram no orçamento.
 - Diárias de viagem para hospedagem, alimentação e transporte da equipe podem ser previstas (item 5.9.4).
 - Serviços de distribuição das faixas em plataformas de streaming podem ser contratados com os recursos, na gravação de álbum.
+- Arranjos musicais e serviços de comunicação/divulgação (ex.: gravação audiovisual do show) entram na etapa de Produção/Execução ou de Divulgação, conforme o caso.
+- A distribuição digital nas plataformas de streaming pode ser contratada inclusive por proponente pessoa física (CPF), entrando na etapa de Divulgação/Difusão.
 
 **Referências citadas:** Anexo X, item 5.9.4 (o corpo do edital só numera até 5.4)
 
-**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:39:13 · 19/07/26, 09:31:04 · 19/07/26, 18:22:54
+**Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:39:13 · 19/07/26, 09:31:04 · 19/07/26, 18:22:54 · 22/07/26, 14:59:43 · 22/07/26, 18:25:04 · 23/07/26, 09:11:38
 
 ---
 
@@ -289,6 +340,77 @@ Use um valor aproximado com base em cotação recente. Durante a execução, o o
 **Referências citadas:** Anexo X, item 5.7 (o corpo do edital só numera até 5.4)
 
 **Fonte (data/hora das mensagens do plantão):** 16/07/26, 10:04:24
+
+---
+
+### Os materiais permanentes comprados no projeto ficam com quem ao final — prefeitura ou equipe?
+
+Em regra, ao término da execução os bens duráveis adquiridos devem ser doados ao Município, em formulário específico e em bom estado de conservação e funcionamento.
+- O edital prevê hipóteses em que a titularidade pode ficar com o agente cultural (ex.: constituição de acervo, transmissão de saberes, acessibilidade, recursos tecnológicos) — nesse caso a previsão deve constar no Termo de Execução Cultural.
+- Na dúvida sobre o seu caso, confirme com a Coordenadoria de Gestão dos Editais de Fomento.
+- Materiais como SSD/HD externo, instrumentos musicais etc. seguem essa regra: se o bem continua sendo usado culturalmente após o projeto, isso deve ser justificado e ele pode permanecer com o agente (item 16.6); caso contrário, é doado ao Município ao final (item 16.7). A compra pode ser feita online, desde que a nota fiscal seja emitida diretamente ao proponente (CPF ou CNPJ).
+
+**Referências citadas:** itens 16.6 e 16.7 do edital
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 12:09:19 · 21/07/26, 12:12:07 · 23/07/26, 11:22:01 · 23/07/26, 14:16:30 · 23/07/26, 14:31:18
+
+---
+
+### Teatros de Campinas costumam cobrar uma taxa de apresentação. Posso prever esse valor no orçamento?
+
+Sim, pode prever esse valor no orçamento.
+- A lista dos equipamentos da Secretaria (bibliotecas, museus e planetário, cidadania cultural, teatros) está no site da prefeitura: campinas.sp.gov.br/secretaria/cultura-e-turismo.
+- Dúvidas sobre os valores cobrados: editais.cultura@campinas.sp.gov.br.
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 14:07:43 · 21/07/26, 14:11:49
+
+---
+
+### Pessoa física não pode comprar bens permanentes. Posso incluir a LOCAÇÃO de equipamentos técnicos (ex.: para gravação em estúdio) na planilha orçamentária?
+
+Sim — pode considerar no orçamento a locação de materiais e equipamentos que sejam necessários para a plena realização do projeto.
+
+**Referências citadas:** Anexo VII
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 14:27:35 · 21/07/26, 14:31:39
+
+---
+
+### Na planilha orçamentária, a locação de equipamentos entra no item de serviços dentro de produção?
+
+Não — entra em Despesas com materiais.
+
+**Referências citadas:** Anexo VII
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 15:39:18 · 21/07/26, 15:41:23
+
+---
+
+### Posso contratar serviços que não são artísticos (ex.: acompanhamento psicológico) dentro do projeto?
+
+Sim. Dois cuidados: (1) justifique de forma explícita — na justificativa do projeto e na descrição do item na planilha — por que aquele serviço é essencial ao projeto; (2) liste a função na ficha técnica e inclua o valor correspondente no orçamento.
+
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 14:55:13
+
+---
+
+### Preciso contratar contador? Os impostos previstos entram no orçamento?
+
+Contratar contador/assessoria contábil não é obrigatório — fica a seu critério (ajuda a acompanhar o projeto e a organizar a prestação de contas). Os impostos previstos e justificados podem ser incluídos na planilha, dentro do valor-teto da sua categoria. Isso é diferente do repasse em si, que é integral e sem retenção.
+
+**Referências citadas:** item 16.4
+
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 14:59:43 · 23/07/26, 11:19:09
+
+---
+
+### Sou sócio de uma empresa (ex.: a agência do meu cônjuge). Posso pagar despesas do projeto a esse CNPJ?
+
+Sim, não há impedimento — desde que não se enquadre nas vedações do item 3.2 do edital (servidor público municipal, inadimplência com o Município ou com prestação de contas do FICC, membros do conselho do FICC, vínculos com gestores etc.). A análise observa como os recursos se distribuem entre os agentes na ficha técnica: quanto mais desconcentrados entre as pessoas, mais interessante o projeto nos critérios de economicidade e isonomia.
+
+**Referências citadas:** item 3.2
+
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 10:31:56 · 23/07/26, 11:13:35
 
 ---
 
@@ -329,8 +451,9 @@ Empresa no lugar de pessoa: pode (ex.: uma empresa de acessibilidade cobrindo v�
 ### O proponente pode ocupar mais de uma função na ficha técnica?
 
 Pode, e não há limite formal. A recomendação é não concentrar funções demais numa pessoa só: o parecerista avalia se o projeto é viável de ser executado.
+- Isso vale também para o orçamento: a mesma pessoa pode ter rubricas distintas na planilha (ex.: cachê artístico + produção executiva), com bom senso na distribuição da verba pública.
 
-**Fonte (data/hora das mensagens do plantão):** 17/07/26, 18:46:18
+**Fonte (data/hora das mensagens do plantão):** 17/07/26, 18:46:18 · 23/07/26, 19:23:32
 
 ---
 
@@ -339,6 +462,22 @@ Pode, e não há limite formal. A recomendação é não concentrar funções de
 Pode. No campo destinado ao CPF, informe o número do passaporte.
 
 **Fonte (data/hora das mensagens do plantão):** 17/07/26, 15:21:00
+
+---
+
+### Posso ser proponente de um projeto e, ao mesmo tempo, ter função na equipe de outros projetos (produção, direção musical etc.)?
+
+Sim, nenhum problema: você pode ser proponente de um projeto e participar da ficha técnica de outros.
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 16:16:22 · 21/07/26, 16:17:06
+
+---
+
+### O proponente precisa comprovar vivência cultural, ou basta a equipe técnica?
+
+Todos os envolvidos no projeto serão avaliados — e o currículo do proponente também pode influenciar na nota dada pelo parecerista.
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 18:46:50 · 21/07/26, 18:55:22
 
 ---
 
@@ -377,8 +516,9 @@ O indutor de desconcentração não tem campo próprio no Anexo IV: vale o ender
 Todo espaço que não é equipamento da Secretaria de Cultura — ONG, teatro alugado, escola, universidade, espaço comunitário — exige carta de anuência da gestão, topando receber o projeto se aprovado. Escolas públicas (que são da Educação): peça à própria escola.
 - Não há modelo oficial de carta: use um formato próprio.
 - Assina quem é responsável direto pela administração do espaço (numa universidade, chefe de departamento ou diretor de unidade vale, se for o responsável). Assinatura digital via gov.br é aceita.
+- Oficinas e atividades em local privado (inclusive uma escola do próprio proponente) são permitidas, desde que sejam 100% gratuitas e abertas ao público e que se anexe a carta de anuência do responsável pelo espaço. Ser o proprietário do espaço não impede.
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 11:19:39 · 15/07/26, 10:16:03 · 15/07/26, 10:14:11 · 16/07/26, 14:17:32 · 16/07/26, 14:03:25 · 21/07/26, 09:13:14 · 13/07/26, 11:25:30 · 13/07/26, 11:38:14 · 13/07/26, 11:47:17
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 11:19:39 · 15/07/26, 10:16:03 · 15/07/26, 10:14:11 · 16/07/26, 14:17:32 · 16/07/26, 14:03:25 · 21/07/26, 09:13:14 · 13/07/26, 11:25:30 · 13/07/26, 11:38:14 · 13/07/26, 11:47:17 · 22/07/26, 15:38:28 · 22/07/26, 15:48:17
 
 ---
 
@@ -410,6 +550,32 @@ O plantão orientou escrever para o e-mail oficial dos editais: editais.cultura@
 
 ---
 
+### Curta-metragem: preciso de carta de anuência para os locais de gravação? E para a exibição? O valor do espaço vai na carta?
+
+Depende do papel do espaço no projeto:
+- Espaços geridos pela Secretaria Municipal de Cultura e Turismo dispensam carta — vale para gravação e exibição.
+- Espaço privado específico e determinante para o projeto (ex.: documentário sobre aquele espaço; exibição em teatro privado): a carta é importante.
+- Espaço facilmente substituível (ex.: uma casa alugada para gravar): a carta não se aplica.
+- O valor do espaço não precisa ir na carta — mas deve constar no orçamento.
+- Se o projeto for aprovado e precisar trocar de espaço, é possível: pede-se alteração com justificativa à Secretaria.
+
+**Referências citadas:** Anexo II, item 2.7
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 14:37:13 · 21/07/26, 14:41:20 · 21/07/26, 15:54:20 · 21/07/26, 16:09:50
+
+---
+
+### Durante a execução, posso trocar o local de uma exibição prevista no projeto? Como fica a justificativa?
+
+Pode, desde que o novo espaço esteja garantido: apresenta-se a carta de anuência do novo local (dispensada se for equipamento gerido pela prefeitura) e envia-se e-mail à Secretaria com a justificativa da mudança.
+- Alterações que, somadas, fiquem abaixo de 10% do valor total do instrumento não precisam de autorização (item 17.3.1) — mas, no caso de local de apresentação, a recomendação do plantão é se certificar com a carta do novo espaço e comunicar a Secretaria.
+
+**Referências citadas:** item 17.3.1 do edital
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 18:24:40 · 21/07/26, 18:31:13 · 21/07/26, 18:33:07 · 21/07/26, 18:52:19
+
+---
+
 ## Documentos e comprovantes
 
 ### O que entrego na inscrição e o que fica para depois da aprovação? Quais anexos assino?
@@ -417,10 +583,11 @@ O plantão orientou escrever para o e-mail oficial dos editais: editais.cultura@
 Na inscrição, só até o Anexo VII (planilha orçamentária). Assinam os anexos III e IV.
 - Do Anexo VIII em diante são documentos de habilitação, entregues após a seleção — declaração de conta bancária, contrato, comprovantes. Nada disso se assina agora, e os documentos do Anexo VIII são apenas do proponente, não da equipe.
 - Comprovante de residência: também é pedido após a seleção. Exceção: quem opta pelo indutor de desconcentração territorial — vale o endereço informado na inscrição, comprovado depois (sem comprovação, perde o ponto do indutor).
+- As assinaturas exigidas nesta etapa (Anexo IV, dos indutores de inclusão) podem ser manuscritas ou eletrônicas (ex.: gov.br); se não for possível um documento único, pode-se juntar PDFs com as diferentes assinaturas. Todas as pessoas que pontuam indutores devem assinar o Anexo IV — a assinatura apenas do proponente não basta.
 
 **Referências citadas:** item 9 do edital · Anexos III, IV, VII e VIII
 
-**Fonte (data/hora das mensagens do plantão):** 13/07/26, 10:01:54 · 16/07/26, 19:20:09 · 17/07/26, 14:33:24 · 18/07/26, 16:00:32 · 20/07/26, 16:47:30 · 20/07/26, 15:56:23 · 21/07/26, 09:13:27
+**Fonte (data/hora das mensagens do plantão):** 13/07/26, 10:01:54 · 16/07/26, 19:20:09 · 17/07/26, 14:33:24 · 18/07/26, 16:00:32 · 20/07/26, 16:47:30 · 20/07/26, 15:56:23 · 21/07/26, 09:13:27 · 22/07/26, 09:06:12 · 22/07/26, 09:07:06 · 22/07/26, 09:09:06
 
 ---
 
@@ -443,17 +610,34 @@ Pela ficha técnica (nome, função e município de cada integrante), pelo curr�
 
 ---
 
+### Qual número do edital deve constar na solicitação da carta de anuência?
+
+003/2026 — o número do edital FICC aberto. Importante constar também o nome do projeto.
+
+**Fonte (data/hora das mensagens do plantão):** 21/07/26, 14:13:24 · 21/07/26, 14:13:56
+
+---
+
+### Estou inscrevendo uma ONG (pessoa jurídica): o cartão CNPJ serve como comprovante de endereço?
+
+Não isoladamente. O cartão CNPJ comprova os dados cadastrais e a sede, mas a análise documental exige um comprovante de endereço formal: uma conta recente de consumo (água, luz, telefone, internet) ou contrato de aluguel no CNPJ da ONG. Se a ONG não tiver contas no próprio nome, vale o comprovante em nome do representante legal (presidente) ou do proprietário do imóvel, acompanhado de uma declaração simples de que a sede/atividades funcionam naquele endereço. O estatuto social não serve como comprovante de endereço. Para casos específicos (ex.: conta de internet), o plantão orientou consultar a Secretaria em editais.cultura@campinas.sp.gov.br.
+
+**Fonte (data/hora das mensagens do plantão):** 23/07/26, 11:47:21 · 23/07/26, 11:54:42 · 23/07/26, 11:59:36
+
+---
+
 ## Prazos e execução
 
 ### Quando o projeto pode começar e com quantos meses de execução devo planejar o cronograma?
 
 O projeto só pode ser iniciado a partir do pagamento — nenhuma etapa (nem pesquisa ou pré-produção) conta antes do depósito.
-- O cronograma oficial (Anexo XIII) prevê pagamento, contratação e nota de empenho para novembro/dezembro de 2026, com execução até 31 de junho de 2027 (data como consta no edital).
+- O cronograma oficial (Anexo XIII) prevê pagamento, contratação e nota de empenho para novembro/dezembro de 2026. A mediação esclareceu que a data final de execução é 30 de junho de 2027 — o '31 de junho' que aparece no edital é erro de digitação, e o '31 de dezembro de 2026' do Anexo X foi corrigido para 30/06/2027.
 - Na prática, a recomendação do plantão foi planejar cerca de 6 meses de execução.
+- A publicação dos resultados da seleção está prevista para setembro (conforme o cronograma do Anexo XIII).
 
 **Referências citadas:** Anexo XIII
 
-**Fonte (data/hora das mensagens do plantão):** 14/07/26, 19:14:06 · 19/07/26, 14:36:44 · 19/07/26, 14:37:18
+**Fonte (data/hora das mensagens do plantão):** 14/07/26, 19:14:06 · 19/07/26, 14:36:44 · 19/07/26, 14:37:18 · 23/07/26, 15:49:57 · 24/07/26, 11:43:42
 
 ---
 
@@ -466,3 +650,20 @@ A entrega do material finalizado (ex.: um curta) fica a critério do agente cult
 
 ---
 
+### Depois de aprovado, posso mudar informações do projeto — roteiro, storyboard, nome da obra, informações complementares?
+
+Você não pode mudar o objeto do projeto (ex.: de curta-metragem para videoclipe) nem o tema significativo que foi critério de avaliação da pertinência cultural (roteiro, storyboard, nome da obra). Ajustes menores são possíveis, mas devem seguir as orientações do Termo de Execução de Objeto e, quando significativos, ser justificados e aprovados pela gestão do FICC.
+
+**Referências citadas:** item 17
+
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 09:22:35 · 22/07/26, 09:23:11 · 22/07/26, 09:27:11 · 24/07/26, 15:50:56
+
+---
+
+### A data limite pode ser prorrogada?
+
+O prazo de inscrição do edital é mantido (final de julho) e não é prorrogável. Já o prazo de execução do projeto aprovado (e a prestação de contas) pode ser prorrogado durante a vigência, desde que você solicite com antecedência à Secretaria de Cultura, justificando o pedido.
+
+**Fonte (data/hora das mensagens do plantão):** 22/07/26, 16:21:33
+
+---

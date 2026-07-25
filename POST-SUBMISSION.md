@@ -82,7 +82,12 @@ What v4 changed, visibly, against the failure modes of round 5:
   on the execution deadline (item 8.1 names "31 June 2027", a date that
   does not exist; Anexo X says 31 December 2026); the receipt flagged the
   contradiction and sent it to the Secretaria's mediators, A CONFERIR,
-  without picking a side.
+  without picking a side. *(The mediators have since answered: the final
+  execution date is 30 June 2027 — "31 June" is a typo and the Anexo X date
+  was corrected. The receipt stays untouched; the resolution lives in
+  `reference/armadilhas.md` and in the official Q&A, with its date and time.
+  This is the loop working: the editor refused to guess, the question went to
+  the people who own the answer, and the answer came back into the source.)*
 
 One known caveat, preserved unedited: finding F-04 bites the marker
 "[nome artístico removido]" — an artifact of this repo's own
@@ -94,5 +99,15 @@ header note.
 
 All five receipts in `tests/cold-run/` were produced under the **previous
 ruleset** — `rules.md` as of the `as-submitted` tag. They stay untouched
-(their SHA-256 pins would flag any edit). Rounds run from here on use v4 and
-will say so in their records.
+(their SHA-256 pins would flag any edit). Round 6 ran under v4, as its record
+says.
+
+`rules.md` has moved twice since: **v5** (24 July) fixed the two deviations
+round 6 exposed — the date of an interpretation is copied from its source
+block instead of compressed into a range, and the opening summary matches the
+sections ID by ID and is written last. **v6** (24 July) added one sentence to
+the anti-rubber-stamp guard: if every section closed with an instant verdict,
+the editor confirmed instead of challenged. The same day, `reference/` was
+updated — the official Q&A grew from 43 to 63 pairs, and the execution
+deadline stopped being an open ambiguity (see the round-6 note above). Rounds
+from here on run under v6 and say so in their records.

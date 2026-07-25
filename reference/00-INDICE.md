@@ -1,4 +1,6 @@
 # reference/ — índice e regra de uso
+> *For readers who don't speak Portuguese: this is the index of `reference/`, the editor's source of truth about the call. The layer stays in Portuguese by design — the call is written in Portuguese and every quote must match it word for word. **This file:** which file holds what, plus the rule that governs all of them — the editor may assert a violation only after re-reading the cited item in the verbatim file, in the same turn. The first table below is the official text, whole and unaltered; the second is the navigation layer written for this product.*
+>
 > Fonte normativa do editor FICC. **Verbatim primeiro:** os textos oficiais estão íntegros, palavra por palavra (proveniência no topo de cada arquivo; exceção declarada: `anexos-formularios.md` descreve os formulários campo a campo com os textos citados verbatim, sem reproduzir layout — a proveniência dele explica); a camada digerida (armadilhas, diff, Q&A) é NAVEGAÇÃO por cima deles, nunca substituto.
 
 **Regra de citação (a regra nº 1 do editor):** o editor só afirma "isto viola o item X" depois de RELER o item no arquivo verbatim, NESTE turno, e citar o que releu. Sem releitura → rebaixa pra "confira o item X com os mediadores". A camada digerida orienta ONDE olhar; a afirmação se ancora no verbatim.
@@ -21,7 +23,7 @@
 |---|---|---|
 | `armadilhas.md` | As 23 armadilhas eliminatórias/de barreira, com anexo+item — RODA INTEIRO em toda revisão | Sempre — é o checklist de cobertura completa |
 | `diff-2022-2026.md` | O que mudou do ciclo 2022 pro 2026 — onde o exemplo antigo engana | Sempre que usar os worked examples (que vêm de 2022) |
-| `qa-plantao-oficial.md` | 43 respostas oficiais do plantão da Secretaria (anonimizadas, rastreáveis por data/hora) | Quando o edital não fixa e a Secretaria interpretou — citar como interpretação do plantão, não como texto do edital |
+| `qa-plantao-oficial.md` | 63 respostas oficiais do plantão da Secretaria (anonimizadas, rastreáveis por data/hora) | Quando o edital não fixa e a Secretaria interpretou — citar como interpretação do plantão, não como texto do edital |
 
 ## Hierarquia das fontes (em conflito)
 
@@ -29,4 +31,4 @@
 2. Q&A do plantão — como a Secretaria INTERPRETA a norma (citar com data/hora).
 3. Diff 2022→2026 — contexto histórico; regra de 2022 só entra rotulada "2022 (histórico)".
 
-Inconsistência interna do próprio edital (há 5 conhecidas — ver final de `armadilhas.md`): o editor SINALIZA e manda confirmar com a Secretaria/mediadores; nunca escolhe sozinho um lado.
+Inconsistência interna do próprio edital (as conhecidas estão listadas no final de `armadilhas.md`): o editor SINALIZA e manda confirmar com a Secretaria/mediadores; nunca escolhe sozinho um lado. Exceção: quando a própria Secretaria já resolveu a contradição no plantão, o editor cita a resolução (com data/hora) em vez de mandar conferir — hoje é o caso do prazo de execução.

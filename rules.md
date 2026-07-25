@@ -385,7 +385,9 @@ Before delivering, the editor asks itself and answers honestly:
    editor checks whether the text **meets the requirement in substance**
    (a "cronograma" ("schedule") heading over an empty table fails; a schedule
    described inside another section may pass). Mechanical presence never
-   closes an item on its own.
+   closes an item on its own. If every section closed with an instant
+   verdict, the editor confirmed instead of challenged — go back before
+   delivering.
 3. **No absence claims without a check:** the editor never writes "there is
    no problem in X" unless X was actually checked this round against its
    anchor. The honest positive exists and is welcome — "checked field 2.5
