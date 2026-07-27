@@ -98,6 +98,90 @@ anonymize-before-run protocol, not the author's text. The editor read what
 it received; the finding is correct for its input. Details in the receipt's
 header note.
 
+## 2026-07-23 — two chains: the editor refuses to guess, and the answer comes back in under a minute
+
+The editor's first rule is that it may assert a violation only after re-reading
+the cited item in the same turn. Where the call itself is ambiguous, it does not
+resolve the ambiguity — it names it and sends the proponent to the Secretaria's
+mediators, who own the answer. Two rounds produced exactly that instruction, and
+both proponents went and asked. Both exchanges were re-read line by line in the
+raw export of the official help desk group (a WhatsApp group with 237 members)
+before being written here; no participant is named.
+
+**Chain 1 — the deadline that does not exist (round 5).** Finding F-08 of the
+round-5 devolutiva is a one-line compact: the proposal's month-by-month schedule
+had no anchor to the contract's term, item 8.1 of the call names a finalization
+date of "31 June 2027" — a date that does not exist — and Anexo X, clause 7.1
+says 31 December 2026. The finding did not pick a side; it told the author to
+confirm the real deadline with the mediators before assuming any slack. The
+proponent took it to the group **as their own question, in their own words** —
+they did not paste the editor's output — at **15:49:24**. The help desk answered at
+**15:49:57**: "30 de junho de 2027". Thirty-three seconds, in public, in front
+of 237 people. The impossible date had been circulating in that group since
+14 July, and had been repeated in an official answer.
+
+**Chain 2 — what counts as an unreleased album (rounds 3 and 4).** The receipts
+of rounds 3 and 4 told that proponent to ask the mediators whether re-recordings
+and new arrangements of already-known songs fit "Projetos de Gravação de Álbum
+Inédito" (Anexo I, 11.2.2) — an ambiguity the editor explicitly refused to
+settle. They asked in the group at **16:13:04** and were answered at
+**16:13:31**: "Olá, pode sim!" Twenty-seven seconds. On 26 July they confirmed
+that they had already assumed that answer, and that it was useful for the
+system to make them check it with the people who decide.
+
+What this says about the design: the value is not in the answer. It is in the
+routing. A tool that refuses to guess sends traffic to the source of truth — and
+one of these two questions corrected the call's deadline for an entire room, not
+only for the person who asked.
+
+## 2026-07-27 — round 7: a third proponent, the first receipt under v6, and one defect confessed
+
+A third real proponent — a Multilinguagens project (a costume exhibition plus a
+printed publication) — sent her Anexo VI on 27 July. Consent was asked for and
+given **before anything was processed**, in two explicit parts: to run the
+analysis, and to publish the material without her name. First round under
+`rules.md` **v6**, with `reference/` at the current curation of the official
+Q&A. The receipt carried 20 findings: 1 ELIMINATÓRIO, 13 PERDE PONTOS,
+6 SUGESTÃO.
+
+Two things are worth recording.
+
+**The double-anchor check ran as a script, not as a reading.** Every quotation
+in the receipt was matched — normalized — against the proposal text and against
+each file in `reference/`; every cited item number was located in its source and
+read, which meant resolving the numbering collisions by hand (12.1, 7.3, 7.4,
+13.1, 16.4.1 and 8.1 all exist in more than one file, with different texts); and
+all 44 help-desk timestamps cited in the receipt were searched in
+`reference/qa-plantao-oficial.md`. Result: 20 of 20 findings carry both anchors,
+all 44 timestamps exist, the opening summary's counts match the findings ID by
+ID, and no sentence of the author's text was rewritten anywhere.
+
+**The check found one defect — and it is the exact failure this product preaches
+against.** In the closing section on where *not* to spend effort, the receipt
+cited a real help-desk timestamp, one that exists in the file, bound to the
+**wrong entry**. The claim ("at submission you file only up to Anexo VII") is
+correct and is in the official Q&A — but under a different question. A true
+identifier attached to the wrong statement. Rule #1 of `rules.md` requires
+re-reading the cited item verbatim in the same turn; it was written for the text
+of the call, and help-desk timestamps were being treated as topic labels rather
+than as addresses to open. The fix goes to the source before any new proposal is
+run — the same order as every other rule fix in this repo.
+
+**Why this round's input and receipt are not published here.** Every previous
+round published both, pinned by SHA-256. This one publishes neither, and the
+reason is a rule rather than an omission: the proposal declares the proponent's
+own health condition as part of her accessibility argument, and the receipt
+quotes it. Dropping her name would not anonymize the document — the project
+title, three named works with their directors and three named venues identify it
+uniquely, and the city publishes the result of the call in the Diário Oficial
+(item 12.16), which pairs project and proponent by name. Editing the receipt to
+remove the finding was refused for a different reason: a receipt is a recording,
+and the SHA-256 pins exist precisely so that nobody, including us, can retouch
+one. So the round is narrated and its files are withheld. **The record stops
+where a person's sensitive data begins.** Her consent covered publication
+without her name; it did not cover this, and asking her for more four days
+before the deadline would serve this repo, not her.
+
 ## Ruleset labeling
 
 All five receipts in `tests/cold-run/` were produced under the **previous
@@ -111,6 +195,10 @@ block instead of compressed into a range, and the opening summary matches the
 sections ID by ID and is written last. **v6** (24 July) added one sentence to
 the anti-rubber-stamp guard: if every section closed with an instant verdict,
 the editor confirmed instead of challenged. The same day, `reference/` was
-updated — the official Q&A grew from 43 to 63 pairs, and the execution
-deadline stopped being an open ambiguity (see the round-6 note above). Rounds
-from here on run under v6 and say so in their records.
+updated — the official Q&A was extended (43 pairs at submission; it grew on
+24 July and again on 25 July, as the help desk kept answering), and the
+execution deadline stopped being an open ambiguity (see the round-6 note
+above). The file is its own count: `reference/qa-plantao-oficial.md` carries
+the provenance in its header, and any number quoted elsewhere would drift the
+next time the help desk answers. Rounds from here on run under v6 and say so
+in their records.
