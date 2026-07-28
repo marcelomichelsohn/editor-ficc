@@ -227,7 +227,8 @@ ruleset** — `rules.md` as of the `as-submitted` tag. They stay untouched
 (their SHA-256 pins would flag any edit). Round 6 ran under v4, as its record
 says.
 
-`rules.md` has moved twice since: **v5** (24 July) fixed the two deviations
+`rules.md` has moved since, and every move was forced by a round: **v5**
+(24 July) fixed the two deviations
 round 6 exposed — the date of an interpretation is copied from its source
 block instead of compressed into a range, and the opening summary matches the
 sections ID by ID and is written last. **v6** (24 July) added one sentence to

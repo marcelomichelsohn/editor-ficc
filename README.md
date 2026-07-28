@@ -99,8 +99,8 @@ matters more than anything else in this repo.
    stated, not hidden), and a scan for tool-syntax tokens leaked by the
    runtime into the editor's prose, counted exactly against the one glitch
    already confessed — a new leak fails the check, and so does erasing the
-   confessed one; and, since v7, an address check on every help-desk
-   timestamp cited with its entry's question — the question must exist as an
+   confessed one; and, since v7, **check 9** — an address check on every
+   help-desk timestamp cited with its entry's question — the question must exist as an
    entry heading and that entry must carry that timestamp, which is how a
    true identifier pinned to the wrong statement becomes machine-visible.
    That check reaches only citations written in the v7 format: the published
@@ -169,9 +169,9 @@ surface, and this is the call the author knows from inside.
   Rounds 3–5 are **consented third-party use** — three real FICC 2026
   proposals from other proponents, anonymized in the input, consent
   recorded — still a handful of preserved cycles, not a usage statistic.
-- The editor **can be wrong** — four documented mistakes this cycle ("For
-  judges", item 4), two of them caught only by a human challenging the
-  round at its gate. Doubt lowers a claim, never raises it — and where the
+- The editor **can be wrong** — every mistake of this cycle is documented
+  ("For judges", item 4), and more than one was caught only by a human
+  challenging the round at its gate. Doubt lowers a claim, never raises it — and where the
   call's text ends, it says so and points to the Secretaria's mediators
   instead of guessing. The human gate is part of the method, not a backup.
 - This is an independent tool: **not affiliated** with the Secretaria de
