@@ -99,13 +99,20 @@ matters more than anything else in this repo.
    stated, not hidden), and a scan for tool-syntax tokens leaked by the
    runtime into the editor's prose, counted exactly against the one glitch
    already confessed — a new leak fails the check, and so does erasing the
-   confessed one. The receipts' own anchors are not re-checked by
-   script — they are checkable by hand against `reference/`, and the
-   walkthrough maps them round by round. `--selftest` proves the verifier rejects
+   confessed one; and, since v7, an address check on every help-desk
+   timestamp cited with its entry's question — the question must exist as an
+   entry heading and that entry must carry that timestamp, which is how a
+   true identifier pinned to the wrong statement becomes machine-visible.
+   That check reaches only citations written in the v7 format: the published
+   receipts predate it and cite the Q&A by date, and each run prints how many
+   such citations it therefore cannot judge. The receipts' own anchors are
+   not re-checked by script — they are checkable by hand against
+   `reference/`, and the walkthrough maps them round by round.
+   `--selftest` proves the verifier rejects
    deliberately broken material, including a tampered hash, a smuggled
-   rewrite and an erased confession — a verifier that passes everything
-   proves nothing. Falsified if: a check passes on material you broke
-   yourself.
+   rewrite, an erased confession and a true timestamp filed under the wrong
+   question — a verifier that passes everything proves nothing. Falsified
+   if: a check passes on material you broke yourself.
 3. **"Real use, preserved."** `tests/cold-run/` holds five full rounds run
    in the declared runtime — method written down **before** execution,
    inputs byte-for-byte, outputs pasted verbatim, errors kept. Rounds 1–2
@@ -119,19 +126,26 @@ matters more than anything else in this repo.
    receipts contradict their inputs, or the walkthrough overstates them
    (`tests/cold-run/README.md` maps all IDs of rounds 1–2 and narrates
    3–5).
-4. **"It knows it can be wrong — and shows it."** The receipts preserve
-   every editor mistake of this cycle — four, plus one runtime glitch —
-   unedited: an ambiguous line limit escalated to eliminatory in round 1
-   (the official Q&A says otherwise); a dosage-rule violation found in an
-   adversarial teardown; a `<parameter>` syntax token that leaked into a
-   sentence of round 3; and — the pair that shows the improvement loop
-   end-to-end — two findings of round 5 escalated to eliminatory against
-   the product's **own** anti-inflation and intake rules, caught by the
-   human operator challenging the round at its gate. Each time the same
-   method ran: the mistake stays in the transcript, the confession is
-   written down, and the rule that induced it is fixed at the source (the
-   round-5 pair produced the two newest rules in `rules.md`, in the
-   anti-inflation block). The editor also has an explicit withdrawal rule:
+4. **"It knows it can be wrong — and shows it."** Every editor mistake of
+   this cycle is preserved unedited, and the list is meant to grow rather
+   than to be counted: an ambiguous line limit escalated to eliminatory in
+   round 1 (the official Q&A says otherwise); a dosage-rule violation found
+   in an adversarial teardown; a `<parameter>` syntax token that leaked into
+   a sentence of round 3; the pair that shows the improvement loop
+   end-to-end — two findings of round 5 escalated to eliminatory against the
+   product's **own** anti-inflation and intake rules, caught by the human
+   operator challenging the round at its gate; and, in round 7, a real
+   help-desk timestamp cited under the wrong question — a true identifier
+   bound to the wrong statement, which is the failure this editor exists to
+   catch, committed by the editor. Each time the same method ran: the
+   mistake stays in the transcript, the confession is written down, and the
+   rule that induced it is fixed at the source (the round-5 pair produced
+   the anti-inflation rules; round 7 produced `rules.md` v7 and the Q&A
+   address rule). Round 7 added something the others did not: because the
+   new rule makes a citation carry its entry's question, the defect stopped
+   being invisible to a script — check 9 above was born from it, with a
+   fixture that reproduces it. See `POST-SUBMISSION.md`, including what that
+   check cannot yet reach. The editor also has an explicit withdrawal rule:
    convinced is different from worn down (`rules.md`).
 5. **"Each file does one job."** The table above; cross-check any file
    against its stated job.
@@ -166,6 +180,7 @@ surface, and this is the call the author knows from inside.
 ## Evolution
 
 The repo is tagged `as-submitted` at the competition deadline. Improvements
-land on top of that tag, visibly, in the open — the way the three consented
-third-party rounds and the two rule fixes they forced already landed before
-it.
+land on top of that tag, visibly, in the open — the way every consented
+third-party round and every rule fix those rounds forced has landed, each as
+its own commit, with the receipt that caused it. `POST-SUBMISSION.md` narrates
+them in order; the commit log is the audit trail.

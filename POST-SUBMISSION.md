@@ -164,8 +164,46 @@ correct and is in the official Q&A — but under a different question. A true
 identifier attached to the wrong statement. Rule #1 of `rules.md` requires
 re-reading the cited item verbatim in the same turn; it was written for the text
 of the call, and help-desk timestamps were being treated as topic labels rather
-than as addresses to open. The fix goes to the source before any new proposal is
-run — the same order as every other rule fix in this repo.
+than as addresses to open.
+
+**The fix went to the source before any new proposal was run** — the same order
+as every other rule fix here — and it went one step past the rule. `rules.md`
+**v7** closes Rule 1 with a subsection, *Citing the Q&A — the entry is the
+address*: locate the entry whose `Fonte` line carries the timestamp before
+citing it; never run the lookup backwards from a topic to a plausible date; and
+**carry that entry's question in the citation**. The anti-easy self-audit gained
+a matching question, answered before delivery: a timestamp that came from memory
+or from a neighbouring entry is removed, not repaired.
+
+That last requirement is the part worth reading twice, and it is not about
+style. A bare timestamp is **true wherever it is pasted** — which is exactly why
+no script could catch this defect, and why a human had to. Once the citation
+carries the question, the pair becomes checkable in one step, and
+`tests/verify.py` gained **check 9**: the question named must exist as an entry
+heading in `reference/qa-plantao-oficial.md`, and that entry's `Fonte` line must
+list the cited timestamp. A timestamp cited with no question fails too. The
+planted-bad fixture reproduces this very defect in miniature, and `--selftest`
+proves the check rejects it. **An error the editor made became a check the
+editor cannot make again silently.**
+
+Its limit, stated rather than implied: **no receipt published here obeys the new
+format yet.** The five rounds of the submitted build and round 6 predate it;
+round 7's files are withheld for the reason below. Today check 9 verifies the
+example inside the rule itself and waits. Its live proof arrives with the first
+round run under v7 — not with this commit.
+
+**Had this happened before?** Every published receipt was swept for the same
+defect. None of them cites the Q&A by timestamp at all: they cite it by date,
+and several compress a range of days (`13–21/07/26`) — the deviation **v5**
+already fixed and confessed. A date names a day, not an entry; many answers can
+share one. So those citations carry no address to be wrong about, and this class
+of defect could not have arisen there in the form it took in round 7 — the
+timestamp only became citable when v5 made the time mandatory, which made round
+7 the first receipt that could commit this error, and it committed it once in
+thirteen citations. **That does not clear them.** Whether a date-only citation
+supports the claim attached to it is not checkable by script at that
+granularity, and the entry-by-entry reading was not done. Every audit run prints
+how many such citations exist, so the gap stays counted instead of forgotten.
 
 **Why this round's input and receipt are not published here.** Every previous
 round published both, pinned by SHA-256. This one publishes neither, and the
@@ -200,5 +238,9 @@ updated — the official Q&A was extended (43 pairs at submission; it grew on
 execution deadline stopped being an open ambiguity (see the round-6 note
 above). The file is its own count: `reference/qa-plantao-oficial.md` carries
 the provenance in its header, and any number quoted elsewhere would drift the
-next time the help desk answers. Rounds from here on run under v6 and say so
-in their records.
+next time the help desk answers.
+
+**v7** (27 July) is the fix round 7 forced, described above: the Q&A is cited by
+address, the citation carries its entry's question, and check 9 verifies the
+pair. Round 7 ran under v6 and says so in its record; rounds from here on run
+under v7.

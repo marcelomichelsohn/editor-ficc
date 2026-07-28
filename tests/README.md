@@ -2,7 +2,7 @@
 
 | Layer | What | How to run / read |
 |---|---|---|
-| Mechanical | `verify.py` — audits the bundle's artifacts offline (anchor quotes verbatim in `reference/`, anchor↔item link, draft excerpts vs. real inputs, no rewrite slot in the skeleton, finding-ID discipline). Stdlib only, no API key. | `python3 tests/verify.py` · `--selftest` proves it can fail (planted-bad `fixtures/` must be rejected) |
+| Mechanical | `verify.py` — audits the bundle's artifacts offline: quoted anchors and draft excerpts against their real sources, the skeleton's refusal of a rewrite slot, finding-ID discipline, the receipts' hashes and their scans for smuggled rewrites and leaked runtime tokens, and the address of every help-desk timestamp cited with its entry. The run names each check and what it covered; the file's docstring states what each one cannot prove. Stdlib only, no API key. | `python3 tests/verify.py` · `--selftest` proves it can fail (planted-bad `fixtures/` must be rejected) |
 | 60-second test | `sample-draft.md` (synthetic defective draft) + `gabarito.md` (what the editor must flag — and the two traps it must NOT flag). | paste the sample into the editor, compare with the gabarito |
 | Real use | `cold-run/` — preserved verbatim receipts of five real rounds: two on the author's own 2023 winning proposal (including the re-review ID by ID), three consented third-party rounds on real FICC 2026 proposals. Method declared before execution. | read `cold-run/README.md` first |
 
