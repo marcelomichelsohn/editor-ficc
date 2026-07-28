@@ -33,6 +33,19 @@ What it checks (and what it honestly cannot):
      directions: a new leak fails, and so does a confessed glitch quietly
      removed. Prose cannot prevent a runtime glitch; this refuses to let a
      new one pass unnoticed.
+  9. qa-citation-address    — every help-desk timestamp cited with an entry
+     question is bound to the entry that actually carries it: the question
+     exists as a heading in reference/qa-plantao-oficial.md, and that entry's
+     Fonte line lists that timestamp. A timestamp cited with no question at
+     all fails too — under rules.md § "Citing the Q&A", a timestamp is an
+     address, and an address without its entry cannot be checked by anyone.
+     This check exists because of a defect it could NOT have caught: in the
+     round-7 receipt the editor cited a real timestamp bound to the wrong
+     entry, and no string check could see it, because a bare timestamp is
+     true wherever it is pasted. Requiring the question is what made the
+     failure mechanical. Its scope is stated, not implied: receipts written
+     under earlier rulesets cite the Q&A by date without a time, so they
+     carry no address for this check to verify and are counted, not judged.
 
 This audits the ARTIFACTS, not the runtime: the rules are prose, and no
 script can prove a live session obeys them. The live evidence is in
@@ -348,6 +361,82 @@ def check_runtime_artifacts(receipts=None, check="runtime-artifact"):
     return checked
 
 
+QA_FILE = "qa-plantao-oficial.md"
+STAMP = r"\d{2}/\d{2}/\d{2},\s*\d{2}:\d{2}:\d{2}"
+# A citation is a parenthetical that carries at least one full timestamp.
+QA_CITATION = re.compile(r"\(([^()]*?" + STAMP + r"[^()]*?)\)", re.S)
+# The entry question, quoted inside the citation (straight or curly quotes).
+QUOTED = re.compile(r'["“](.+?)["”]', re.S)
+# Legacy shape: the Q&A cited by date only, with no time — the format every
+# receipt written before rules.md v5 uses. Counted, never judged.
+DATE_ONLY = re.compile(r"\d{2}/\d{2}/\d{2}(?!,?\s*\d{2}:\d{2}:\d{2})")
+
+
+def count_legacy_citations(text: str) -> int:
+    """Dates cited as an interpretation of the help desk without a time.
+    A date names a day, not an entry: dozens of entries answer on any given
+    day, so these citations carry no address and check 9 cannot reach them.
+    Counted so the gap is visible instead of implied."""
+    n = 0
+    for m in DATE_ONLY.finditer(text):
+        window = text[max(0, m.start() - 90):m.start()]
+        if "plantão" in window or "Q&A" in window:
+            n += 1
+    return n
+
+
+def load_qa_entries():
+    """{entry question -> set of timestamps on its Fonte line} for the
+    official Q&A. The question is the entry's heading; the Fonte line is the
+    address book. Both come from the shipped file, never from memory."""
+    path = REFERENCE / QA_FILE
+    if not path.exists():
+        return {}
+    entries, question = {}, None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("### "):
+            question = norm(line[4:])
+            entries.setdefault(question, set())
+        elif line.startswith("**Fonte") and question is not None:
+            entries[question].update(re.findall(STAMP, line))
+    return entries
+
+
+def check_qa_citations(texts=None, check="qa-citation-address"):
+    """Check 9: a cited timestamp must be bound to the entry that carries it,
+    and the citation must name that entry's question."""
+    entries = load_qa_entries()
+    if texts is None:
+        texts = [(p.name, p.read_text(encoding="utf-8"))
+                 for d in RECEIPT_DIRS for p in sorted(d.glob("*.md"))]
+        texts.append((RULES.name, RULES.read_text(encoding="utf-8")))
+    if not entries:
+        fail(check, f"reference/{QA_FILE} has no entries to address")
+        return 0, 0
+    checked = legacy = 0
+    for name, text in texts:
+        legacy += count_legacy_citations(text)
+        for m in QA_CITATION.finditer(text):
+            citation = m.group(1)
+            stamps = re.findall(STAMP, citation)
+            checked += len(stamps)
+            quoted = QUOTED.search(citation)
+            if not quoted:
+                fail(check, f"{name}: timestamp {stamps[0]} cited with no "
+                            f"entry question — an address without its entry")
+                continue
+            asked = norm(quoted.group(1)).rstrip("…").strip()
+            homes = [q for q in entries if q.startswith(asked)]
+            if not homes:
+                fail(check, f"{name}: no Q&A entry begins \"{asked[:60]}…\"")
+                continue
+            for stamp in stamps:
+                if not any(stamp in entries[h] for h in homes):
+                    fail(check, f"{name}: {stamp} is not on the Fonte line of "
+                                f"\"{asked[:60]}…\" — true timestamp, wrong entry")
+    return checked, legacy
+
+
 def run_audit():
     reference = load_reference()
     if not reference:
@@ -362,9 +451,12 @@ def run_audit():
     n_receipts = check_receipts()
     n_scans = check_no_rewrite()
     n_artifacts = check_runtime_artifacts()
+    n_qa, n_legacy = check_qa_citations()
     print(f"checked: {n_anchors} call anchors · {n_excerpts} draft excerpts · "
           f"1 skeleton · ID discipline · {n_receipts} receipt hashes · "
-          f"{n_scans} no-rewrite scans · {n_artifacts} runtime-artifact scans")
+          f"{n_scans} no-rewrite scans · {n_artifacts} runtime-artifact scans · "
+          f"{n_qa} Q&A addresses ({n_legacy} pre-v5 date-only Q&A citations "
+          f"found — they carry no address and check 9 cannot reach them)")
     report()
 
 
@@ -422,12 +514,29 @@ def run_selftest():
                         "the runtime-artifact scan — verifier is broken")
 
     FAILURES.clear()
+    bad_qa = (FIXTURES / "bad-qa-citation.md").read_text(encoding="utf-8")
+    check_qa_citations(texts=[("bad-qa-citation.md", bad_qa)],
+                       check="selftest-qa-address")
+    if not FAILURES:
+        problems.append("a real timestamp bound to the wrong Q&A entry passed "
+                        "the address check — verifier is broken")
+
+    FAILURES.clear()
+    bare = 'na inscrição vai só até o Anexo VII (Q&A do plantão, 22/07/26, 09:07:06).'
+    check_qa_citations(texts=[("synthetic-bare-stamp.md", bare)],
+                       check="selftest-qa-bare")
+    if not FAILURES:
+        problems.append("a timestamp cited with no entry question passed the "
+                        "address check — verifier is broken")
+
+    FAILURES.clear()
     if problems:
         for p in problems:
             print(f"SELFTEST FAIL: {p}")
         sys.exit(1)
     print("selftest: OK — all planted-bad cases (quote, skeleton, tampered "
-          "receipt hash, smuggled rewrite, leaked runtime token, erased "
+          "receipt hash, smuggled rewrite, leaked runtime token, wrong Q&A "
+          "entry, addressless timestamp, erased "
           "confession) were correctly rejected")
     sys.exit(0)
 

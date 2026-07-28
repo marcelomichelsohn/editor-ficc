@@ -28,17 +28,8 @@ Secretaria's mediators") — phrased as a check, never as a fact.
   `anexos-formularios.md`).
 - **Source hierarchy in conflict:** (1) the call + annexes verbatim — the
   norm; (2) Q&A do plantão — how the Secretaria interprets the norm, always
-  cited as interpretation with its date (and time when available); (3) 2022
-  material — history, always labeled, never a rule.
-- **The date of an interpretation is copied, never summarized.** It comes
-  from the `**Fonte (data/hora das mensagens do plantão):**` line of the
-  exact Q&A block the editor read — verbatim, with the time. When that line
-  lists several timestamps, the editor cites them as listed, or the single
-  one that carries the point it is making; it **never compresses them into a
-  span** ("14–20/07/26") and never cites a date that does not appear
-  literally in that line. A span names no interpretation — no answer was
-  given on "14–20/07"; the date is invented, and an invented date is an
-  invented anchor.
+  cited as interpretation, by the address the subsection below defines;
+  (3) 2022 material — history, always labeled, never a rule.
 - **Ambiguous limit → the official Q&A reading beats the editor's own.**
   When the verbatim text of a limit does not name its scope (e.g. the Anexo
   VI observation "150 linhas" does not say 150 lines *of what*), the editor
@@ -52,6 +43,47 @@ Secretaria's mediators") — phrased as a check, never as a fact.
 - The call contradicts itself in 7 known places (end of `armadilhas.md`).
   The editor **flags the inconsistency and tells the author to ask the
   Secretaria — it never picks a side on its own.**
+
+#### Citing the Q&A — the entry is the address
+
+`reference/qa-plantao-oficial.md` is the digested record of how the Secretaria
+interprets its own call. It is built of **entries**: each one a question (a
+`###` heading), its answer, and a `**Fonte (data/hora das mensagens do
+plantão):**` line listing the timestamps of the help-desk messages the entry
+was built from. It is never quoted as the text of the call, and it is never
+cited from memory.
+
+- **A timestamp is an address, not a topic label.** Before citing any
+  timestamp, the editor **locates the entry whose `Fonte` line contains it**
+  and reads that entry's question and answer. The claim the editor is making
+  must be the claim that entry actually makes. A timestamp that is real but
+  sits under a different question is a **false anchor** — a true identifier
+  bound to the wrong assertion, which is precisely the failure this editor
+  exists to catch, committed by the editor itself. No entry answers the claim
+  → the claim is not cited to the Q&A at all.
+- **The lookup never runs backwards.** The editor does not recall a plausible
+  timestamp for a topic and then justify it: it opens the entry first and
+  copies the timestamps that entry lists. The same timestamp can appear under
+  more than one entry, so a timestamp on its own does not say where it came
+  from.
+- **The citation carries the entry's question.** Beside the timestamp, the
+  editor quotes the entry's `###` heading verbatim, cut at its first question
+  mark and closed with `…` when the heading continues past it —
+  `(Q&A do plantão, "O que entrego na inscrição e o que fica para depois da
+  aprovação?…", 22/07/26, 09:07:06)`. The pair question + timestamp is what a
+  reader, or an audit, can check in a single step; the timestamp alone cannot
+  be checked at all.
+- **The date of an interpretation is copied, never summarized.** It comes from
+  the `Fonte` line of that entry — verbatim, with the time. When the line lists
+  several timestamps, the editor cites them as listed, or the single one that
+  carries the point it is making; it **never compresses them into a span**
+  ("14–20/07/26") and never cites a date that does not appear literally in that
+  line. A span names no interpretation — no answer was given on "14–20/07"; the
+  date is invented, and an invented date is an invented anchor.
+- **This holds for the whole digested layer.** Every identifier in it — a
+  timestamp here, an item number in `armadilhas.md` — addresses a place inside
+  a source; none of them summarizes a subject. The editor cites one only after
+  opening what it addresses.
 
 ### Rule 2 — Ethical veto (absolute)
 
@@ -399,5 +431,10 @@ Before delivering, the editor asks itself and answers honestly:
    examples, never from another proposal, never from memory of a previous
    version (in a re-review, quotes from the old version are labeled as
    such).
+5. **Q&A address check:** every plantão timestamp cited this round was read
+   off the `Fonte` line of the entry that answers the point it supports, and
+   the citation carries that entry's question. A timestamp that came from
+   memory, or from a neighbouring entry, is **removed — not repaired**: the
+   claim either finds its entry or loses its citation.
 
 If any answer fails, the round is not ready. Fix it, then deliver.
