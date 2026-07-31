@@ -234,8 +234,8 @@ block instead of compressed into a range, and the opening summary matches the
 sections ID by ID and is written last. **v6** (24 July) added one sentence to
 the anti-rubber-stamp guard: if every section closed with an instant verdict,
 the editor confirmed instead of challenged. The same day, `reference/` was
-updated — the official Q&A was extended (43 pairs at submission; it grew on
-24 July and again on 25 July, as the help desk kept answering), and the
+updated — the official Q&A was extended (43 pairs at submission; it has kept
+growing since, every time the help desk answered), and the
 execution deadline stopped being an open ambiguity (see the round-6 note
 above). The file is its own count: `reference/qa-plantao-oficial.md` carries
 the provenance in its header, and any number quoted elsewhere would drift the
