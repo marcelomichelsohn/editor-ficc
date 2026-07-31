@@ -24,7 +24,7 @@ What he did with the critique, unprompted:
 - **Asked for a second round on his own.** He will send a revised Anexo VI
   and asked whether he could submit it for re-review — the re-review with
   persistent IDs that `rules.md` § re-review defines. That round will be
-  recorded here when it runs.
+  recorded here when it runs. *(It ran on 31 July — § round 8 below.)*
 - **Proposed an improvement.** A per-item progress map: every scoreable item
   of the call as a cell that clears when the proposal satisfies it, so the
   author sees exactly where the gaps are.
@@ -53,6 +53,11 @@ His progress-map idea is **queued, credited to him**, with two safeguards
 already fixed: only an item actually re-read in the round may clear a cell,
 and the map never predicts the official reviewer's score — that judgment
 belongs to someone else.
+
+*Update, 31 July: the first slice shipped, in his own second devolutiva. From
+the second round of any proposal on, the PDF's summary opens with a progress
+bar derived strictly from the re-review verdicts. The full per-item map of the
+call is still queued.*
 
 ## 2026-07-23 — round 6: a second real proponent, first round under v4
 
@@ -192,6 +197,9 @@ round 7's files are withheld for the reason below. Today check 9 verifies the
 example inside the rule itself and waits. Its live proof arrives with the first
 round run under v7 — not with this commit.
 
+*Update, 31 July: it arrived. Round 8 ran under v7, and check 9 resolved every
+help-desk timestamp in its receipt — § round 8 below.*
+
 **Had this happened before?** Every published receipt was swept for the same
 defect. None of them cites the Q&A by timestamp at all: they cite it by date,
 and several compress a range of days (`13–21/07/26`) — the deviation **v5**
@@ -220,6 +228,112 @@ where a person's sensitive data begins.** Her consent covered publication
 without her name; it did not cover this, and asking her for more four days
 before the deadline would serve this repo, not her.
 
+## 2026-07-31 — round 8: the first re-review, and the editor asks for its own previous critique
+
+Nine days after receiving the round-5 critique, on the day entries closed, the
+same proponent sent back a revised Anexo VI. This is the round the section above
+said would be recorded here when it ran.
+
+It is the first time this editor re-read a proposal it had already criticized —
+the behavior `rules.md § Re-review` describes in prose and that nothing had ever
+executed. The rule allows three paths. The one that had never run is the one
+where the round starts in a **fresh chat**, so the editor has no access to what
+it wrote before. The revised proposal was pasted alone, with no instruction
+about how to treat a second reading. The editor answered:
+
+> This is a new conversation — the previous analysis you mention isn't here (I have no memory across chats). How would you like to proceed?
+
+And then, once told the previous analysis was coming:
+
+> Perfect — go ahead and paste the previous analysis (the round with the codes F-01, F-02…). With it in hand I'll verify each old finding one by one before opening anything new, and the codes stay the same.
+
+It named its own limit, asked for the missing artifact, and announced the two
+guarantees of the contract before doing any work: verification item by item
+**before** any new finding, and persistent IDs. It did not start from scratch —
+which would have been the failure — and it did not declare the re-review
+impossible.
+
+What came out of it, with the previous critique in hand: the twelve findings of
+round 5 verified one at a time, **9 resolved, 2 partial, 1 not addressed**, and
+then nine new findings continuing at **F-13**, with nothing renumbered.
+
+- Input: [`tests/post-submission/rodada-8-input.md`](tests/post-submission/rodada-8-input.md)
+  — the revised Anexo VI, anonymized to the same standard as round 5. The
+  second paste of the round was the previous devolutiva itself, and is not
+  published; the header of the input says so.
+- Receipt: [`tests/post-submission/rodada-8-output.md`](tests/post-submission/rodada-8-output.md)
+  — verbatim, opening with the two turns quoted above. Two notes the reader is
+  owed sit in its header, outside the receipt, because a receipt is never
+  retouched: one on the eligibility finding F-15 (the author confirmed, before
+  delivery, that the person who signs the entry does live in Campinas), and one
+  on F-03 and the AI guide tracks.
+- English rendering: [`tests/post-submission/rodada-8-output.EN.md`](tests/post-submission/rodada-8-output.EN.md)
+  — a translation, not the receipt. The help-desk questions inside it stay in
+  Portuguese on purpose: under v7 the question **is** the address, and
+  translating an address breaks it while leaving it looking valid.
+
+All of them are pinned by SHA-256 and checked by `tests/verify.py`, like every
+other round here.
+
+**The proponent replied the same evening**, hours before the deadline, to the
+same three questions he had answered after the first round. The first time, the
+answer to "is any point wrong or confusing?" was a complaint: he could not
+decode the summary's color legend. That complaint became a rule about how the
+PDF is generated. This time, the same question, the same reader:
+**"Not this time."** His reply is in
+[`tests/post-submission/feedback-rodada-8.md`](tests/post-submission/feedback-rodada-8.md),
+together with the two things it does **not** prove.
+
+### Check 9's live proof
+
+The section above ended by saying that check 9 — the one born from round 7's
+confessed defect — verified only the example inside the rule, and that its live
+proof would arrive with the first round run under v7. This is that round. The
+receipt cites the official help desk **sixteen times, across eleven distinct
+entries, resolving twenty-six timestamps**. Every citation carries its entry's
+question, every question exists as an entry heading, and every timestamp appears
+on that entry's `Fonte` line. Check 9 passes, and no citation falls back to a
+bare date.
+
+Its limit has not moved and is worth repeating: **check 9 verifies consistency,
+not truth.** It proves the timestamp cited belongs to the entry named. An entry
+whose own source address was wrong from birth would still pass. That class of
+error is caught by reading, not by scripts — and one such case was found and
+fixed this same week, in the curation that feeds `reference/` (below).
+
+### An error retired without touching a rule
+
+In round 5 the editor labeled the studios' letters of consent as eliminatory.
+That was wrong, it was caught at the human gate, and it was confessed — the
+receipt still carries it, unedited, as receipts do here. Between then and now,
+nobody changed a line of `rules.md` about it. What changed is `reference/`: the
+curation of the official help desk grew to contain the answer that settles the
+question head-on. Re-reading the same proposal, the editor found the entry,
+cited it, and wrote:
+
+> [F-04] Letters of consent from the studios — RESOLVED, and I was more attached to the risk than I needed to be.
+
+It withdrew its own severity, out loud, without being asked. That is the
+retraction rule working on its own — and it is worth naming what fixed it:
+**a better source, not a better rule.** Editing prompts is the reflex; feeding
+the thing that the prompt reads is what actually retired the defect.
+
+### What the Q&A curation gained this week
+
+`reference/qa-plantao-oficial.md` is generated from a curation of the official
+help-desk group, and every entry names the message it came from. That address
+was carrying only half of what it claimed: the field records **the question and
+the answer**, and in a number of entries only the question had been registered —
+the mediator's reply, which is what the published text actually rests on, had no
+address at all. Every missing reply timestamp was paired by hand, against the
+full text of the entry it belongs to; no published answer was altered in the
+process. One entry was found pointing at the wrong message entirely — a
+"thank you" from another participant instead of the mediator's reply — and was
+corrected. The public label changed too: what the field holds is the question
+**and** the reply, and it now says so.
+
+None of that is visible in a receipt. It is visible in what a citation is worth.
+
 ## Ruleset labeling
 
 All five receipts in `tests/cold-run/` were produced under the **previous
@@ -244,4 +358,4 @@ next time the help desk answers.
 **v7** (27 July) is the fix round 7 forced, described above: the Q&A is cited by
 address, the citation carries its entry's question, and check 9 verifies the
 pair. Round 7 ran under v6 and says so in its record; rounds from here on run
-under v7.
+under v7 — round 8 (31 July) is the first of them.
